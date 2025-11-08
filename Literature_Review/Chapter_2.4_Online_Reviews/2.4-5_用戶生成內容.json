@@ -1,0 +1,324 @@
+[
+  {
+    "title": "In-depth statistical analysis of the use of a website providing patients' narratives on lifestyle change when living with chronic back pain or coronary heart disease",
+    "authors": [
+      "Schweier, Rebecca",
+      "Grande, Gesine",
+      "Richter, Cynthia",
+      "Riedel-Heller, Steffi G.",
+      "Romppel, Matthias",
+      "ELSEVIER IRELAND LTD",
+      "Schweier, Rebecca",
+      "Grande, Gesine",
+      "Richter, Cynthia",
+      "Schweier, Rebecca",
+      "Riedel-Heller, Steffi G.",
+      "Romppel, Matthias",
+      "Schweier, Rebecca",
+      "Riedel-Heller, Steffi",
+      "Riedel-Heller, Steffi",
+      "Grande, Gesine",
+      "Schweier, Rebecca",
+      "Romppel, Matthias"
+    ],
+    "year": "2018",
+    "journal": "PATIENT EDUCATION AND COUNSELING",
+    "doi": "10.1016/j.pec.2018.02.015",
+    "uid": "WOS:000434093000015",
+    "abstract": "Objective: To investigate the use of lebensstil-aendern. de (\"lifestyle change\"), a website providing peer narratives of experiences with successful lifestyle change, and to analyze whether peer model characteristics, clip content, and media type have an influence on the number of visitors, dwell time, and exit rates.",
+    "countries": [
+      "Germany"
+    ],
+    "citations": 1,
+    "references": 0,
+    "keywords": "Web-based interventions; Usage statistics; Patient narratives; Peer modeling; Cardiovascular; Chronic back pain; CARDIOVASCULAR-DISEASES; PSYCHOSOCIAL STRESS; HEALTH INFORMATION; CANCER-PATIENTS; BEHAVIOR-CHANGE; RISK-FACTORS; COUNT DATA; WORK; INTERVENTIONS; EXPERIENCES",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Aspect-based sentiment analysis of drug reviews using multi-task learning based dual BiLSTM model",
+    "authors": [
+      "Rani, Somiya",
+      "Jain, Amita",
+      "SPRINGER",
+      "Rani, Somiya",
+      "Jain, Amita",
+      "Jain, Amita",
+      "Jain, Amita",
+      "Rani, Somiya",
+      "jain, amita"
+    ],
+    "year": "2023",
+    "journal": "MULTIMEDIA TOOLS AND APPLICATIONS",
+    "doi": "10.1007/s11042-023-16360-3",
+    "uid": "WOS:001043714700006",
+    "abstract": "User-generated content on healthcare web forums, particularly drug reviews, provides valuable information on drug benefits, effectiveness, side effects, dosage, condition, cost, and overall experiences. Applying Aspect-Based Sentiment Analysis (ABSA) can help researchers categorize sentiments toward specific aspects such as drug effectiveness, side effects, and treatment experiences. These insights are highly useful for healthcare professionals, pharmaceutical companies, and researchers to assess drug efficacy and safety, utilizing the vast amount of healthcare-related user-generated content available online. However, due to scarcity of annotated data for training ABSA models in the medical domain poses challenges in accurately extracting aspect terms. Also, the identification of implicit aspects poses a huge challenge as they frequently lack explicit names or keywords that directly indicate their presence. The domain-dependent nature of ABSA and the variability of term meanings across domains necessitate the incorporation of contextual information and semantic patterns. Therefore, we propose a novel model called Multi-task Learning based Dual Bidirectional LSTM Model (MLDBM) for ABSA of drug reviews. The MLDBM leverages BERT and incorporates a multi-head self-attention mechanism to produce aspect-specific representations which are further processed through the dual BiLSTM model. This enables the model to capture and analyze sentiments related to different aspects discussed in the reviews. We also introduce various modifications to the MLDBM to identify the constraints of the proposed model. The proposed model outperforms state-of-the-art models by achieving a performance gain of 8% to 12% on two benchmark datasets, demonstrating its effectiveness when compared to various baseline models. ABSA applied to drug reviews contributes to enhancing healthcare quality by considering different aspects of drugs as shared by consumers.",
+    "countries": [
+      "India"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "Aspect-based Sentiment Analysis; Attention; BERT; Deep Learning; Drug Reviews; Dual BiLSTM; Multi-Head Self-Attention; Multi-task Learning; ATTENTION",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Impact of User-Generated Internet Content on Hospital Reputational Dynamics",
+    "authors": [
+      "Ivanov, Anton",
+      "Sharman, Raj",
+      "ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD",
+      "Ivanov, Anton",
+      "Sharman, Raj",
+      "Sharman, Raj",
+      "Ivanov, Anton",
+      "Sharman, Raj",
+      "Ivanov, Anton"
+    ],
+    "year": "2018",
+    "journal": "JOURNAL OF MANAGEMENT INFORMATION SYSTEMS",
+    "doi": "10.1080/07421222.2018.1523603",
+    "uid": "WOS:000453555300011",
+    "abstract": "In pursuit of notable reputations, organizations commonly engage their stakeholders using various online mechanisms. While reputation signaling via online user engagement is commonplace, its implications in the context of user-generated content (UGC) remain largely unaddressed. This study empirically explores the impact of UGC on hospital reputational dynamics. A unique panel dataset was analyzed using a lagged model approach to determine the effects of signals of quality, awareness, and content variance on hospital prominence and quality as well as the impact of reputation on financial performance. The findings suggest that quality signals significantly impact patient-perceived quality ratings, and signals of awareness and content variance significantly impact prominence rating. Also, in contrast to prominence, perceived quality significantly and negatively impactsfinancial performance. Given the ready availability of user-generated feedback, these findings can inform patient-provider online engagement strategies and related budget allocations. Furthermore, they highlight the unique role of Facebook ratings as an antecedent to quality and prominence dimensions of reputation.",
+    "countries": [
+      "USA"
+    ],
+    "citations": 1,
+    "references": 0,
+    "keywords": "hospital reputation; healthcare; online prominence; quality signals; content variance; user-generated content; hospital utilization; financial performance; online engagement; SOCIAL MEDIA; CORPORATE REPUTATION; TWITTER ACTIVITY; QUALITY; PROMINENCE; FACEBOOK; RATINGS; FIRMS; CARE",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Online Healthcare Information Adoption Assessment Using Text Mining Techniques",
+    "authors": [
+      "Prabha, M. Surya",
+      "Sarojini, B.",
+      "SPRINGER",
+      "Prabha, M. Surya",
+      "Sarojini, B.",
+      "Prabha, M. Surya",
+      "balakrishnan, sarojini",
+      "Balakrishnan, Sarojini"
+    ],
+    "year": "2019",
+    "journal": "MOBILE NETWORKS & APPLICATIONS",
+    "doi": "10.1007/s11036-019-01253-3",
+    "uid": "WOS:000477612300004",
+    "abstract": "Online healthcare community discussion forums facilitate patients and healthcare seekers to exchange knowledge on health-related issues. Mining the enormous volume of the user generated contents in these forums may provide valuable information regarding the health. The contribution of the responses in par with the question asked needs to be analyzed to provide meaningful solutions. Among the answers given by the repliers the answer that contributes knowledge for the health seeker or patient needs to be identified by analyzing the contents of the replies. The knowledge contribution of the reply is measured using the metrics such as Quality of information, Emotional support, and Source Trustworthiness, Replier Competition and Recipient Involvement. A knowledge Contribution Model proposed in this research work aims to determine the answers that could be adopted from the set of answers provided for each question. The pregnancy data from health-care community, Medhelp, is taken-up for analysis. Using Knowledge contribution model, the most influential answer that may be adopted from the given answers is determined by analyzing contents of the answers using text mining techniques. The SVM-RBF Kernel classification algorithm is applied to categorize the answers as adopted and non-adopted from the evaluated metrics.",
+    "countries": [
+      "India"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "Online health care community; Medhelp; Knowledge contribution model; Text mining; SVM-RBF kernel",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Improved healthcare disaster decision-making utilizing information extraction from complementary social media data during the COVID-19 pandemic",
+    "authors": [
+      "Kellner, Domenic",
+      "Lowin, Maximilian",
+      "Hinz, Oliver",
+      "ELSEVIER",
+      "Kellner, Domenic",
+      "Lowin, Maximilian",
+      "Hinz, Oliver",
+      "Lowin, Maximilian",
+      "Lowin, Maximilian"
+    ],
+    "year": "2023",
+    "journal": "DECISION SUPPORT SYSTEMS",
+    "doi": "10.1016/j.dss.2023.113983",
+    "uid": "WOS:001049372300001",
+    "abstract": "Managing an extreme event like a healthcare disaster requires accurate information about the event's circumstances to comprehend the full consequences of acting. However, information quality is rarely optimal since it takes time to determine the information of relevance. The COVID-19 pandemic showed that even official data sources are far from optimal since they suffer from reporting delays that slow decision-making. To support decision-makers with timely information, we utilize data from online social networks to propose an adaptable information extraction solution to create indices helping to forecast COVID-19 case numbers and hospitalization rates. We show that combining heterogeneous data sources like Twitter and Reddit can leverage these sources' inherent complementarity and yield better predictions than those using a single data source alone. We further show that the predictions run ahead of the official COVID-19 incidences by up to 14 days. Additionally, we highlight the importance of model adjustments whenever new information becomes available or the underlying data changes by observing distinct changes in the presence of specific symptoms on Reddit.",
+    "countries": [
+      "Germany"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "User -generated content; Natural language processing; Decision support system; Pandemic preparedness; Healthcare disaster management; MISLEADING INFORMATION; TIME; PREDICTION; FRAMEWORK; SYSTEM",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "The Impact of Process- vs. Outcome-Oriented Reviews on the Sales of Healthcare Services",
+    "authors": [
+      "Li, Hongfei",
+      "Peng, Jing",
+      "Wang, Gang",
+      "Bai, Xue",
+      "INFORMS",
+      "Li, Hongfei",
+      "Peng, Jing",
+      "Wang, Gang",
+      "Bai, Xue",
+      "Peng, Jing",
+      "Li, Hongfei",
+      "Peng, Jing",
+      "Peng, Jing"
+    ],
+    "year": "2024",
+    "journal": "INFORMATION SYSTEMS RESEARCH",
+    "doi": "10.1287/isre.2019.0168",
+    "uid": "WOS:001171033300001",
+    "abstract": "The consumption of services inherently requires a process to achieve the desired outcome. For nonexperiential services (e.g., healthcare and education) primarily valued for their end outcomes, their consumption typically involves lengthy processes that are not designed for enjoyment (e.g., wound care and lecture attendance). Consequently, there exists a prominent tension between the processes (means) and outcomes (ends) of these services, which is largely ignored in the prior literature on user-generated content (UGC) that predominantly focuses on products (e.g., books and electronics) or experiential services (e.g., dining and lodging). To bridge this gap, we investigate the distinct roles of process- and outcome-oriented reviews in influencing consumers' decisions to pursue healthcare services, leveraging a comprehensive data set collected from an online platform for cosmetic procedures. By separating process- and outcome-oriented reviews through visual content analysis, we show that the effect of outcome-oriented reviews in boosting the sales of healthcare services is almost twice stronger than that of process-oriented reviews on average. However, the relative effectiveness of these two types of reviews varies substantially across different types of healthcare services. Specifically, we find that process-oriented reviews are more influential in affecting consumers' purchases of services with higher complexity, in contrast to outcome-oriented reviews that are more impactful for services with lower complexity. Moreover, the impact of process-oriented reviews is stronger for less popular services, whereas the impact of outcome-oriented reviews is stronger for more popular services. These nuanced findings show that consumers resort to different types of UGC while considering different types of healthcare services. Our work has important implications both theoretically and practically.",
+    "countries": [
+      "Peoples R China",
+      "USA"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "process; outcome; feasibility; desirability; healthcare; visual content; WORD-OF-MOUTH; ONLINE PRODUCT REVIEWS; MENTAL SIMULATION; CONSUMER REVIEWS; SOCIAL MEDIA; IMAGINATION; INFORMATION; QUALITY; THOUGHT; DESIGN",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Multiple-Perspective Data-Driven Analysis of Online Health Communities",
+    "authors": [
+      "Alnashwan, Rana",
+      "O'Riordan, Adrian",
+      "Sorensen, Humphrey",
+      "MDPI",
+      "Alnashwan, Rana",
+      "O'Riordan, Adrian",
+      "Sorensen, Humphrey",
+      "O'Riordan, Adrian",
+      "O'Riordan, Adrian",
+      "Alnashwan, Rana"
+    ],
+    "year": "2023",
+    "journal": "HEALTHCARE",
+    "doi": "10.3390/healthcare11202723",
+    "uid": "WOS:001093542800001",
+    "abstract": "The growth of online health communities and socially generated health-related content has the potential to provide considerable value for patients and healthcare providers alike. For example, members of the public can acquire medical knowledge and interact with others online. However, the volume of information-and the consequent 'noise' associated with large data volumes-can create difficulties for users. In this paper, we present a data-driven approach to better understand these data from multiple stakeholder perspectives. We utilise three techniques-sentiment analysis, content analysis, and topic analysis-to analyse user-generated medical content related to Lyme disease. We use a supervised feature-based model to identify sentiments, content analysis to identify concepts that predominate, and latent Dirichlet allocation strategy as an unsupervised generative model to identify topics represented in the discourse. We validate that applying three different analytic methods highlights differing aspects of the information different stakeholders will be interested in based on the goals of different stakeholders, expert opinion, and comparison with patient information leaflets.",
+    "countries": [
+      "Saudi Arabia",
+      "Ireland"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "online health communities; Lyme disease; machine learning; sentiment analysis; content analysis; topic analysis; SOCIAL MEDIA; SENTIMENT ANALYSIS; PATIENT LANGUAGE; LYME-DISEASE; VISUALIZATION; INTERNET; QUALITY; CANCER; CARE; WEB",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "In authority, or peers we trust? Reviews and recommendations in social commerce",
+    "authors": [
+      "Dinulescu, Catalin C.",
+      "Prybutok, Victor R.",
+      "TAYLOR & FRANCIS LTD",
+      "Dinulescu, Catalin C.",
+      "Prybutok, Victor R.",
+      "Dinulescu, Catalin C.",
+      "Prybutok, Victor",
+      "Dinulescu, Catalin",
+      "Dinulescu, Catalin"
+    ],
+    "year": "2022",
+    "journal": "BEHAVIOUR & INFORMATION TECHNOLOGY",
+    "doi": "10.1080/0144929X.2021.1957016",
+    "uid": "WOS:000679191900001",
+    "abstract": "Social commerce is an emergent business model where user-generated content is a valuable source of information that minimises the risk and ambiguity surrounding online purchase decisions. This study examines the user-generated content represented by reviews and recommendations (electronic word of mouth or eWOM) by contrasting customer (peer) vs. authority (expert) generated eWOM, from a product buying criteria perspective. Using five consumer healthcare wearable products as a benchmark, customer reviews from Amazon.com were analysed and compared with expert reviews and recommendations from Consumer Reports using machine learning techniques such as Latent Dirichlet Allocation (LDA) topic modelling, logistic regression, multinomial naive Bayes, random forest and support vector machines. The findings suggest that expert reviews and recommendations remain product-centric and are not attuned to shifts in customer buying patterns, thus missing out on important product context-based usage and evaluation criteria such as operational, personal, and environmental. Considering these results, the authors discuss implications for managers and researchers, and future research directions.",
+    "countries": [
+      "USA"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "Social commerce; eWOM; machine learning; data mining; decision making; WORD-OF-MOUTH; ONLINE USER REVIEWS; RELATIONSHIP QUALITY; PURCHASE INTENTIONS; PRODUCT; IMPACT; EXPERT; EWOM; COMMUNICATION; DETERMINANTS",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "TikTok and Attention-Deficit/Hyperactivity Disorder: A Cross-Sectional Study of Social Media Content Quality",
+    "authors": [
+      "Yeung, Anthony",
+      "Ng, Enoch",
+      "Abi-Jaoude, Elia",
+      "SAGE PUBLICATIONS INC",
+      "Yeung, Anthony",
+      "Yeung, Anthony",
+      "Ng, Enoch",
+      "Abi-Jaoude, Elia",
+      "Abi-Jaoude, Elia",
+      "Yeung, Anthony",
+      "Yeung, Anthony",
+      "Yeung, Anthony",
+      "Ng, Enoch"
+    ],
+    "year": "2022",
+    "journal": "CANADIAN JOURNAL OF PSYCHIATRY-REVUE CANADIENNE DE PSYCHIATRIE",
+    "doi": "10.1177/07067437221082854",
+    "uid": "WOS:000762769500001",
+    "abstract": "Objectives Social media platforms are increasingly being used to disseminate mental health information online. User-generated content about attention-deficit/hyperactivity disorder (ADHD) is one of the most popular health topics on the video-sharing social media platform TikTok. We sought to investigate the quality of TikTok videos about ADHD. Method The top 100 most popular videos about ADHD uploaded by TikTok video creators were classified as misleading, useful, or personal experience. Descriptive and quantitative characteristics of the videos were obtained. The Patient Education Materials Assessment Tool for Audiovisual Materials (PEMAT-A/V) and Journal of American Medical Association (JAMA) benchmark criteria were used to assess the overall quality, understandability, and actionability of the videos. Results Of the 100 videos meeting inclusion criteria, 52% (n = 52) were classified as misleading, 27% (n = 27) as personal experience, and 21% (n = 21) as useful. Classification agreement between clinician ratings was 86% (kappa statistic of 0.7766). Videos on the platform were highly understandable by viewers but had low actionability. Non-healthcare providers uploaded the majority of misleading videos. Healthcare providers uploaded higher quality and more useful videos, compared to non-healthcare providers. Conclusions Approximately half of the analyzed TikTok videos about ADHD were misleading. Clinicians should be aware of the widespread dissemination of health misinformation on social media platforms and its potential impact on clinical care.",
+    "countries": [
+      "Canada"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "TikTok; social media; adhd; attention-deficit; hyperactivity disorder; misinformation; public health; e-mental health; diagnosis; HEALTH INFORMATION; ANXIETY; TRENDS",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "When a Doctor Knows, It Shows: An Empirical Analysis of Doctors' Responses in a Q&A Forum of an Online Healthcare Portal",
+    "authors": [
+      "Khurana, Sandeep",
+      "Qiu, Liangfei",
+      "Kumar, Subodha",
+      "INFORMS",
+      "Khurana, Sandeep",
+      "Qiu, Liangfei",
+      "Kumar, Subodha",
+      "Khurana, Sandeep",
+      "Qiu, Liangfei"
+    ],
+    "year": "2019",
+    "journal": "INFORMATION SYSTEMS RESEARCH",
+    "doi": "10.1287/isre.2019.0836",
+    "uid": "WOS:000488276800010",
+    "abstract": "Question-and-answer (Q&A) forums are gaining popularity as a user-engagement tool to drive traffic on multiservice portals. In a platform market model, demand-side users seek answers from supply-side users because such answers can indicate value offered, reduce buyer uncertainty, and offer social proof. Analyzing user-generated content on the Q&A forum of a prominent healthcare portal, we find that the introduction of doctors' responses has a significant causal impact on demand-side user perception of medical services offered. More importantly, our research suggests that doctors' specialty, experience, qualifications, transparency in appointment booking, service fees, and response quality moderate the effect of doctors' Q&A responses on user recommendations. These results demonstrate that because of information asymmetry in healthcare, doctors use thoughtful online responses not only to socially interact with patients but also to signal their expertise.",
+    "countries": [
+      "India",
+      "USA"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "healthcare; Q&A forums; digital platforms; user-generated content; SOCIAL SUPPORT; REPUTATION; MARKET; BEHAVIOR; IMPACT; TRUST; COMMUNITIES; UNCERTAINTY; MECHANISMS; MODELS",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Fake News: Spread of Misinformation about Urological Conditions on Social Media",
+    "authors": [
+      "Loeb, Stacy",
+      "Taylor, Jacob",
+      "Borin, James F.",
+      "Mihalcea, Rada",
+      "Perez-Rosas, Veronica",
+      "Byrne, Nataliya",
+      "Chiang, Austin L.",
+      "Langford, Aisha",
+      "ELSEVIER",
+      "Loeb, Stacy",
+      "Taylor, Jacob",
+      "Borin, James F.",
+      "Byrne, Nataliya",
+      "Loeb, Stacy",
+      "Langford, Aisha",
+      "Loeb, Stacy",
+      "Mihalcea, Rada",
+      "Perez-Rosas, Veronica",
+      "Chiang, Austin L.",
+      "Loeb, Stacy",
+      "Langford, Aisha",
+      "Perez-Rosas, Veronica",
+      "Borin, James",
+      "Taylor, Jacob",
+      "Loeb, Stacy"
+    ],
+    "year": "2020",
+    "journal": "EUROPEAN UROLOGY FOCUS",
+    "doi": "10.1016/j.euf.2019.11.011",
+    "uid": "WOS:000531657200009",
+    "abstract": "Although there is a large amount of user-generated content about urological health issues on social media, much of this content has not been vetted for information accuracy. In this article, we review the literature on the quality and balance of information on urological health conditions on social networks. Across a wide range of benign and malignant urological conditions, studies show a substantial amount of commercial, biased and/or inaccurate information present on popular social networking sites. The healthcare community should take proactive steps to improve the quality of medical information on social networks.",
+    "countries": [
+      "USA"
+    ],
+    "citations": 3,
+    "references": 0,
+    "keywords": "Fake news; Misinformation; Social media; Urology; YouTube; INFORMATION",
+    "subtypeDescription": "Review"
+  }
+]

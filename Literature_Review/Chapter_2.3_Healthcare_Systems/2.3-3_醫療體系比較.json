@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Indoor air quality prediction systems for smart environments: A systematic review",
+    "authors": [
+      "Saini, Jagriti",
+      "Dutta, Maitreyee",
+      "Marques, Goncalo",
+      "SAGE PUBLICATIONS INC",
+      "Saini, Jagriti",
+      "Dutta, Maitreyee",
+      "Marques, Goncalo",
+      "Saini, Jagriti",
+      "Saini, Dr. Jagriti",
+      "Marques, Goncalo",
+      "Dutta, Maitreyee",
+      "Saini, Jagriti",
+      "Dutta, Maitreyee",
+      "Marques, Goncalo"
+    ],
+    "year": "2020",
+    "journal": "JOURNAL OF AMBIENT INTELLIGENCE AND SMART ENVIRONMENTS",
+    "doi": "10.3233/AIS-200574",
+    "uid": "WOS:000574482900007",
+    "abstract": "Air quality is a critical matter of concern in terms of the impact on public health and well-being. Although the consequences of poor air quality are more severe in developing countries, they also have a critical impact in developed countries. Healthcare costs due to air pollution reach $150 billion in the USA, whereas particulate matter causes 412,000 premature deaths in Europe, every year. According to the Environmental Protection Agency (EPA), indoor air pollutant levels can be up to 100 times higher in comparison to outdoor air quality. Indoor air quality (IAQ) is in the top five environmental risks to global health and well-being. The research community explored the scope of artificial intelligence (AI) in the past years to deal with this problem. The IAQ prediction systems contribute to smart environments where advanced sensing technologies can create healthy living conditions for building occupants. This paper reviews the applications and potential of AI for the prediction of IAQ to enhance building environment and public health. The results show that most of the studies analyzed incorporate neural networks-based models and the preferred evaluation metrics are RMSE, R-2 score and error rate. Furthermore, 66.6% of the studies include CO2 sensors for IAQ assessment. Temperature and humidity parameters are also included in 90.47% and 85.71% of the proposed methods, respectively. This study also presents some limitations of the current research activities associated with the evaluation of the impact of different pollutants based on different geographical conditions and living environments. Moreover, the use of reliable and calibrated sensor networks for real-time data collection is also a significant challenge.",
+    "countries": [
+      "India",
+      "Portugal"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "Artificial intelligence; indoor air quality; prediction; occupational health; public health; PARTICULATE MATTER; FEATURE-SELECTION; ARTIFICIAL-INTELLIGENCE; NEURAL-NETWORK; EXPOSURE; HEALTH; POLLUTION; COOKING; MODEL; EMISSIONS",
+    "subtypeDescription": "Review"
+  },
+  {
+    "title": "A Solidaristic Approach to Workers' Compensation Reform in Taiwan",
+    "authors": [
+      "Yeh, Ming-Jui",
+      "OXFORD UNIV PRESS",
+      "Yeh, Ming-Jui",
+      "Yeh, Ming-Jui",
+      "Yeh, Ming-Jui"
+    ],
+    "year": "2019",
+    "journal": "PUBLIC HEALTH ETHICS",
+    "doi": "10.1093/phe/phz005",
+    "uid": "WOS:000510750500005",
+    "abstract": "The workers' compensation system in Taiwan cannot provide sufficient coverage for all workers. This essay adopts a solidaristic approach to address this issue by analyzing the reasons why workers' compensation is underdeveloped in Taiwan and what could be done to persuade more key actors to support the reform for a more just policy arrangement. First, through comparison with the healthcare system, it is argued that the lack of solidarity and the perception of relevant similarities could explain the underdevelopment of workers' compensation. Second, the essay turns to the normative aspect of the issue. Compared with other normative political theories, Iris M. Young's social connection model provides specific normative guidance that is useful for justifying the allocation of responsibility for a more just workers' compensation reform.",
+    "countries": [
+      "USA"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "HEALTH-INSURANCE; RETURN MIGRANTS; RIGHTS; INJURIES",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Preterm delivery among first-time Mexico-born mothers: a binational population-based comparison of deliveries in California and Mexico",
+    "authors": [
+      "Guendelman, Sylvia",
+      "Thornton, Dorothy",
+      "Perez-Cuevas, Ricardo",
+      "Walsh, Julia",
+      "BMJ PUBLISHING GROUP",
+      "Guendelman, Sylvia",
+      "Walsh, Julia",
+      "Thornton, Dorothy",
+      "Walsh, Julia",
+      "Perez-Cuevas, Ricardo",
+      "Guendelman, Sylvia",
+      "Perez-Cuevas, Ricardo"
+    ],
+    "year": "2015",
+    "journal": "JOURNAL OF EPIDEMIOLOGY AND COMMUNITY HEALTH",
+    "doi": "10.1136/jech-2014-204020",
+    "uid": "WOS:000346161300022",
+    "abstract": "Background While studies have attributed the favourable birth outcomes of Mexico-born mothers in the USA to a 'healthy immigrant effect' that confers protection to immigrants, a comparison of immigrants with the source population in Mexico has been lacking. We compared preterm delivery (PTD) rates of Mexico-born immigrants who delivered in California with Mexico-born women who delivered in Mexico (WIMX) and with a subgroup who delivered in the five top immigrant sending states in Mexico.",
+    "countries": [
+      "USA",
+      "Mexico"
+    ],
+    "citations": 2,
+    "references": 0,
+    "keywords": "LOW-BIRTH-WEIGHT; FOREIGN-BORN; US-BORN; PREGNANCY OUTCOMES; HEALTH; WOMEN; ETHNICITY; PARADOX; ORIGIN; ACCULTURATION",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Source modeling for Monte Carlo dose calculation of CT examinations with a radiotherapy treatment planning system",
+    "authors": [
+      "Kallman, Hans-Erik",
+      "Holmberg, Rickard",
+      "Andersson, Jonas",
+      "Kull, Love",
+      "Traneus, Erik",
+      "Ahnesjo, Anders",
+      "WILEY",
+      "Kallman, Hans-Erik",
+      "Kallman, Hans-Erik",
+      "Holmberg, Rickard",
+      "Traneus, Erik",
+      "Andersson, Jonas",
+      "Kull, Love",
+      "Ahnesjo, Anders",
+      "Kallman, Hans-Erik",
+      "Kallman, Hans-Erik",
+      "Ahnesjo, Anders",
+      "Holmberg, Rickard"
+    ],
+    "year": "2016",
+    "journal": "MEDICAL PHYSICS",
+    "doi": "10.1118/1.4965043",
+    "uid": "WOS:000387007500033",
+    "abstract": "Purpose: Radiation dose to patients undergoing examinations with Multislice Computed Tomography (MSCT) as well as Cone Beam Computed Tomography (CBCT) is a matter of concern. Risk management could benefit from efficient replace rational dose calculation tools. The paper aims to verify MSCT dose calculations using a Treatment Planning System (TPS) for radiotherapy and to evaluate four different variations of bow-tie filter characterizations for the beam model used in the dose calculations.",
+    "countries": [
+      "Sweden"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "radiation exposure; radiation oncology; tomography; x-ray computed; Monte Carlo method; risk management; COMPUTED-TOMOGRAPHY; VALIDATION; SPECTRA; ORGAN",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Comparison of the Proportion and Healthcare Utilisation of Adult Patients with Uncontrolled Severe Asthma versus Non-Severe Asthma Seen in a Southeast Asian Hospital-Based Respiratory Specialist Clinic",
+    "authors": [
+      "Tay, Tunn Ren",
+      "Wong, Hang Siang",
+      "Ihsan, Rosna",
+      "Toh, Hsiao Peng",
+      "Choo, Xuening",
+      "Tee, Augustine K. H.",
+      "ACAD MEDICINE SINGAPORE",
+      "Tay, Tunn Ren",
+      "Wong, Hang Siang",
+      "Ihsan, Rosna",
+      "Toh, Hsiao Peng",
+      "Choo, Xuening",
+      "Tee, Augustine K. H.",
+      "Tay, Tunn Ren",
+      "Tee, Augustine"
+    ],
+    "year": "2017",
+    "journal": "ANNALS ACADEMY OF MEDICINE SINGAPORE",
+    "doi": "N/A",
+    "uid": "WOS:000410257100002",
+    "abstract": "Introduction: Understanding the burden of uncontrolled severe asthma is essential for disease-targeted healthcare planning. There is a scarcity of data regarding the proportion, healthcare utilisation and costs of patients with uncontrolled severe asthma in Asia. This study aimed to plug the knowledge gap in this area. Materials and Methods: Consecutive patients with asthma managed in our respiratory specialist clinic were evaluated prospectively. Healthcare utilisation comprising unscheduled asthma-related primary care visits, emergency department (ED) visits and hospital admissions were obtained from the national health records system. We defined uncontrolled severe asthma as poor symptom control (Asthma Control Test score <20); 2 or more asthma exacerbations requiring >= 3 days of systemic corticosteroids in the previous year; 1 or more serious asthma exacerbation requiring hospitalisation in the previous year; or airflow limitation with pre-bronchodilator forced expiratory volume in 1 second (FEND <80% predicted despite high dose inhaled corticosteroids and another controller medication. Results: Of the 423 study participants, 49 (11.6%) had uncontrolled severe asthma. Compared to non-severe asthma, patients with uncontrolled severe asthma were older and more likely to be female and obese. They had a median of 2 (interquarfile range: 0 to 3) exacerbations a year, with 51% having >= 2 exacerbations in the past 12 months. They were responsible for 43.9% of the hospital admissions experienced by the whole study cohort. Mean annual direct asthma costs per patient was S$2952 +/- S$4225 in uncontrolled severe asthma vs S$841 +/- S$815 in non severe asthma. Conclusion: Approximately 12% of patients with asthma managed in a hospital-based respiratory specialist clinic in Singapore have uncontrolled severe asthma. They account for a disproportionate amount of healthcare utilisation and costs. Healthcare strategies targeting these patients are urgently needed.",
+    "countries": [
+      "Singapore"
+    ],
+    "citations": 15,
+    "references": 0,
+    "keywords": "Cost; Exacerbations; Singapore; DIFFICULT; COSTS; IDENTIFICATION; EPIDEMIOLOGY; PREVALENCE; BURDEN; TRENDS; COHORT; UK",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Half-Managed Care: A Preliminary Assessment of a Capitation Program in a Health Care System Without Gatekeepers",
+    "authors": [
+      "Cheng, Shou-Hsia",
+      "Chang, Chih-Ming",
+      "Chen, Chi-Chen",
+      "Shih, Chih-Yuan",
+      "Tsai, Shu-Ling",
+      "SAGE PUBLICATIONS LTD",
+      "Cheng, Shou-Hsia",
+      "Chang, Chih-Ming",
+      "Chen, Chi-Chen",
+      "Shih, Chih-Yuan",
+      "Tsai, Shu-Ling",
+      "Cheng, Shou-Hsia",
+      "CHENG, SHOU-HSIA",
+      "Shih, Chih-Yuan"
+    ],
+    "year": "2017",
+    "journal": "INTERNATIONAL JOURNAL OF HEALTH SERVICES",
+    "doi": "10.1177/0020731415615310",
+    "uid": "WOS:000405000100009",
+    "abstract": "In 2011, a novel capitation program was launched in Taiwan under its universal health insurance plan. This study aimed to assess the short-term impact of the program. Two hospitals in the greater Taipei area, one participating in the loyal patient model (13,319 enrollees) and one in the regional resident model (13,768 enrollees), were analyzed. Two comparison groups were selected by propensity score matching. Generalized estimating equation models with differences-in-differences analysis were used to examine the net effects of the capitation program on health care utilization, expenses, and outcomes. Enrollees in the loyal patient model had fewer physician visits in the host hospital, but more physician visits outside that hospital during the program year than they had the year before. Compared with non-enrollees, the loyal patient model enrollees incurred fewer physician visits (=-0.042, p<.001), fewer emergency department visits, (=-0.140, p<.001), and similar total expenses and outcome. For the regional resident model, no differences were found in the number of physician visits, expenses, or outcomes between enrollees and non-enrollees. The novel capitation models in Taiwan had minimal impact on health care utilization after 1 year of implementation and the health care outcome was not compromised.",
+    "countries": [
+      "Taiwan"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "capitation payment; assessment; healthcare utilization; healthcare expenses; healthcare outcomes; Taiwan; ENROLLEES; INSURANCE; PAYMENT; TAIWAN; MODELS",
+    "subtypeDescription": "Article"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Examining the role of commercial long-term care insurance in long-term care services",
+    "authors": [
+      "Yu, Tsu-Wei",
+      "Tseng, Lu-Ming",
+      "EMERALD GROUP PUBLISHING LTD",
+      "Yu, Tsu-Wei",
+      "Tseng, Lu-Ming",
+      "Yu, Tsu-Wei"
+    ],
+    "year": "2019",
+    "journal": "INTERNATIONAL JOURNAL OF BANK MARKETING",
+    "doi": "10.1108/IJBM-01-2018-0007",
+    "uid": "WOS:000488526800009",
+    "abstract": "Purpose - The purpose of this paper is to explore the role of commercial long-term care insurance (LTCI) in long-term care (LTC) services, and to elucidate the mediating roles of service quality and relationship satisfaction in the relationship between customization and loyalty. In addition, this study offers important recommendations for policy makers in formulating policy aimed at supporting the industry and regulating its customer relationships in life insurers in Taiwan.",
+    "countries": [
+      "Taiwan"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "In-depth interviews; Structural equation modelling; Commercial long-term care insurance; Long-term care services; Policyholders; CUSTOMER LOYALTY; QUALITY; SATISFACTION; IMPACT; ANTECEDENTS; PURCHASE; HEALTH; MODEL; TRUST; PERFORMANCE",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "A decision tree-based classifier for E-visit service provision",
+    "authors": [
+      "Chern, Ching-Chin",
+      "Ho, Pin-Syuan",
+      "Hsiao, Bo",
+      "TAYLOR & FRANCIS INC",
+      "Chern, Ching-Chin",
+      "Ho, Pin-Syuan",
+      "Hsiao, Bo",
+      "Hsiao, Bo",
+      "Hsiao, Bo"
+    ],
+    "year": "2020",
+    "journal": "INFORMATICS FOR HEALTH & SOCIAL CARE",
+    "doi": "10.1080/17538157.2019.1582057",
+    "uid": "WOS:000555104000003",
+    "abstract": "This study proposes a decision tree-based e-visit classification approach (DTEVCA) to determine clinic visits qualified as e-visits using clinics' medical records and patients' demographic data. This study assumes that health care insurance will subsidise e-visit service costs, in which case, identifying patients who benefit most from e-visit service is essential. Using a large data set from Taiwan's National Health Insurance, this study verifies the efficiency and validity of the DTEVCA. Results indicate that this approach can accurately classify in-office clinic visits that could switch to e-visit services. The straightforward rules of this decision tree also give insurance agencies a clear guideline to understand the circumstances of using e-visits and predict the effects of implementing e-visits in Taiwan. Result of this study can help countries improve the policy formulation process for physicians' use, or for academic research. The DTEVCA can update classification rules using new data to correct biases and ensure the stability of the e-visit system. In addition, the concept of this approach is feasible not only for e-visit service but also for other 'new services' such as new products or new policies.",
+    "countries": [
+      "Taiwan"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "E-visit; healthcare analytics; data classification; decision tree; health care insurance; data mining; CARE; SATISFACTION; TELEMEDICINE; EVISITS; COSTS",
+    "subtypeDescription": "Article"
+  },
+  {
+    "title": "Strengthening resilience and patient safety in healthcare institutions during the COVID-19 pandemic: Experience from a quasi-medical center",
+    "authors": [
+      "Chen, Szu-Ying",
+      "Wang, Shih-Hao",
+      "Wang, Yi-Ming",
+      "Huang, Yu-Wei",
+      "Chi, Shu-Ching",
+      "ELSEVIER TAIWAN",
+      "Chen, Szu-Ying",
+      "Wang, Yi-Ming",
+      "Huang, Yu-Wei",
+      "Chen, Szu-Ying",
+      "Chen, Szu-Ying",
+      "Huang, Yu-Wei",
+      "Wang, Shih-Hao",
+      "Huang, Yu-Wei",
+      "Chi, Shu-Ching",
+      "Wang, Shih-Hao",
+      "Wang, Yi-Ming",
+      "Chi, Shu-Ching",
+      "Chi, Shu-Ching",
+      "Yuwei, Huang",
+      "Chen, Szu-Ying"
+    ],
+    "year": "2024",
+    "journal": "JOURNAL OF THE FORMOSAN MEDICAL ASSOCIATION",
+    "doi": "10.1016/j.jfma.2024.09.035",
+    "uid": "WOS:001351476400007",
+    "abstract": "The COVID-19 global pandemic exposed healthcare system vulnerabilities, further endangering patient safety. This article explores perspectives on resilience and patient safety among healthcare workers using data from the Taiwan Patient Safety Culture Survey (TPSCS) and implementing Patient Safety Leadership Walkrounds (PSLWs) at E-Da Hospital. In 2021 and 2022, 1340 and 1114 staff members from clinical departments completed TPSCS questionnaires, respectively. 89 leaders from clinical departments participated in PSLWs in 2022. Among the four job categories, scores of Safety Attitude Questionnaire (SAQ) were lower among nurses and medical technicians, while perceptions of resilience and work-life balance were lowest among nurses. Between the two-year surveys, nurses exhibited significant decreases in SAQ in 2022 compared to 2021, while perceptions of work condition and work-life balance significantly declined among pharmacists. Resilience perception significantly decreased among all job categories except physicians during the pandemic. Mediation analyses showed teamwork climate, job satisfaction, management, work condition, and work-life balance were directly associated with safety climate, while resilience acts as a mediator, indirectly potentiating these relationships. Through PSLWs, we identified concerns about patient safety, including workforce, systems, processes, equipment, and work environment. Among these, workforce shortages and unsatisfactory pay emerged as the most pressing challenges. Strong leadership was recognized as a crucial factor in enhancing resilience and patient safety. This study suggests that TPSCS and PSLWs are worth regularly promoting among hospital institutions. Additionally, our findings highlight the urgency of healthcare organizations and governmental agencies to undertake policy reforms to improve healthcare workers' well-being.",
+    "countries": [
+      "Taiwan"
+    ],
+    "citations": 0,
+    "references": 0,
+    "keywords": "Resilience Patient safety; Leadership walkrounds; COVID-19; National health insurance; LEADERSHIP WALKROUNDS; SYSTEM RESILIENCE; NURSES; IMPACT",
+    "subtypeDescription": "Review"
+  }
+]

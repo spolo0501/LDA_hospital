@@ -1,0 +1,13 @@
+# 自訂停用詞表
+# 這個檔案用於添加領域專用的停用詞
+# 每行一個詞，以#開頭的行為註解
+
+# 您可以在執行data_preprocessing.py後
+# 根據 processed_data/word_frequency_top200.txt 的結果
+# 將無意義的高頻詞加入此檔案
+# 然後重新執行 data_preprocessing.py
+
+# 範例：常見無意義詞
+# 真的
+# 覺得
+# 感覺

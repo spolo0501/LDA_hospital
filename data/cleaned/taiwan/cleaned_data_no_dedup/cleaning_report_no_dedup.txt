@@ -1,0 +1,68 @@
+
+資料清理流程摘要（不移除重複版本）
+================================================================================
+
+步驟 1: 合併所有醫院評論
+  • 來源檔案數: 28 個
+  • 合併後總數: 25,132 條
+
+步驟 2: 清除空白評論
+  • 移除數量: 9,483 條
+  • 剩餘數量: 15,649 條
+
+步驟 3: 篩選最近一年的評論 (最近 365 天)
+  • 截止日期: 2024-10-28
+  • 移除數量: 12,286 條
+  • 剩餘數量: 3,363 條
+
+步驟 4: 跳過移除重複評論 ⏭️
+  • 移除數量: 0 條 (跳過此步驟)
+  • 剩餘數量: 3,363 條
+
+步驟 5: 評論長度限制 (最少 20 字元)
+  • 移除數量: 0 條
+  • 剩餘數量: 3,363 條
+
+步驟 6: 隨機抽樣 (目標 4,000 條)
+  • 最終樣本: 3,363 條
+
+================================================================================
+
+資料保留率: 13.4%
+(從 25,132 條 → 3,363 條)
+
+輸出檔案:
+  • 最終清理資料: cleaned_data_no_dedup/final_cleaned_sample_no_dedup.csv
+  • 所有中間步驟檔案保存在: cleaned_data_no_dedup/
+
+
+醫院分布詳情:
+================================================================================
+AdventHealth_Orlando                                995 條 ( 29.6%)
+Hackensack_University_Medical_Center                209 條 (  6.2%)
+Cleveland_Clinic_OH                                 196 條 (  5.8%)
+Cleveland_Clinic                                    191 條 (  5.7%)
+Houston_Methodist_Hospital                          181 條 (  5.4%)
+Cedars-Sinai_Medical_Center                         146 條 (  4.3%)
+Northwestern_Memorial_Hospital                      109 條 (  3.2%)
+University_of_Michigan_Health                       101 條 (  3.0%)
+Mount_Sinai_Hospital                                 97 條 (  2.9%)
+Duke_University_Hospital                             87 條 (  2.6%)
+Mayo_Clinic_Arizona                                  87 條 (  2.6%)
+Rush_University_Medical_Center                       84 條 (  2.5%)
+NYP_Weill_Cornell_NY                                 82 條 (  2.4%)
+Mayo_Clinic_MN                                       81 條 (  2.4%)
+NewYork-Presbyterian_Weill_Cornell                   74 條 (  2.2%)
+Hospital_of_University_of_Pennsylvania               72 條 (  2.1%)
+Johns_Hopkins_MD                                     72 條 (  2.1%)
+NewYork-Presbyterian_Columbia                        71 條 (  2.1%)
+Johns_Hopkins_Hospital                               66 條 (  2.0%)
+Brigham_and_Womens_Hospital                          59 條 (  1.8%)
+Mass_General_MA                                      55 條 (  1.6%)
+UCLA_Medical_CA                                      52 條 (  1.5%)
+Massachusetts_General_Hospital                       46 條 (  1.4%)
+NYU_Langone_Hospitals                                46 條 (  1.4%)
+UCLA_Medical_Center                                  41 條 (  1.2%)
+UCSF_Medical_CA                                      33 條 (  1.0%)
+UCSF_Medical_Center                                  28 條 (  0.8%)
+Mayo_Clinic_Rochester                                 2 條 (  0.1%)

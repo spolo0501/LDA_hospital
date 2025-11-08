@@ -1,0 +1,24 @@
+# LDA醫院評論分析專案依賴套件
+
+# 資料處理
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0  # Excel檔案讀寫
+
+# 中文文字處理
+jieba>=0.42.1
+
+# LDA主題模型
+gensim>=4.3.0
+
+# 視覺化
+matplotlib>=3.6.0
+seaborn>=0.12.0
+wordcloud>=1.9.0
+pyLDAvis>=3.4.0
+
+# 其他工具
+tqdm>=4.64.0  # 進度條（可選）
+
+# Web 服務
+Flask>=3.0.0

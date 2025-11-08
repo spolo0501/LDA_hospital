@@ -1,0 +1,124 @@
+# ============================================
+# Git 忽略檔案設定
+# 這些檔案不會被 Git 追蹤
+# ============================================
+
+# ----------------
+# 資料檔案（太大，不適合 Git）
+# ----------------
+# 原始評論資料
+data/raw/**/*.csv
+data/raw/**/*.xlsx
+data/raw/**/*.json
+
+# 處理後的資料
+data/processed/**/*.csv
+data/processed/**/*.txt
+data/cleaned/**/*.csv
+
+# Google Reviews 輸出
+google_reviews_output/
+
+# ----------------
+# 分析結果（可重新生成）
+# ----------------
+# LDA 模型檔案（.pkl 通常很大）
+results/**/*.pkl
+
+# 圖表（可重新生成）
+results/**/*.png
+results/**/*.jpg
+results/**/*.pdf
+
+# Excel 結果（可重新生成）
+results/**/*.xlsx
+
+# 但保留重要的分析報告 Markdown
+!results/**/*.md
+
+# ----------------
+# Python 相關
+# ----------------
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# ----------------
+# 系統檔案
+# ----------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ----------------
+# Log 檔案
+# ----------------
+*.log
+logs/
+
+# ----------------
+# 臨時檔案
+# ----------------
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# ----------------
+# IDE 設定檔
+# ----------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------
+# Node.js (如果有用到)
+# ----------------
+node_modules/
+package-lock.json
+
+# ----------------
+# 備份檔案（通常是舊版本）
+# ----------------
+*_backup
+*_old
+*.backup
+*.bak
+
+# ----------------
+# 特定專案排除
+# ----------------
+# 批次抓取的 log
+batch_scrape_*.log
+
+# 但保留重要的專案文檔
+!CLAUDE.md
+!README.md
+!DATA_STRUCTURE.md
+!FILE_STRUCTURE.md
+!*.md
+
+# ----------------
+# 保留的空目錄標記
+# ----------------
+# Git 不會追蹤空目錄，但可以用 .gitkeep 標記
+!.gitkeep

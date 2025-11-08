@@ -1,0 +1,111 @@
+# 🏥 美國醫院評論分析 - 檔案清單
+
+生成時間: 2025-10-28
+
+## 📋 核心文件（必讀）
+
+✅ PROJECT_INDEX.md                      ⭐⭐⭐ 專案總覽（從這裡開始！）
+✅ QUICK_REFERENCE.md                    ⭐⭐⭐ 快速參考（5分鐘）
+✅ ANALYSIS_SUMMARY.md                   ⭐⭐⭐⭐⭐ 綜合報告（最重要）
+✅ FILE_STRUCTURE.md                     檔案結構詳細說明
+✅ FILES_LIST.txt                        本文檔 - 檔案清單
+
+## 📊 分析結果
+
+### EDA 探索性分析
+✅ eda_results/eda_visualizations.png    12個視覺化圖表
+✅ eda_results/correlation_matrix.png    相關性矩陣
+✅ eda_results/EDA_REPORT.md            完整EDA報告
+
+### 主題建模
+✅ topic_modeling_results/lda_topics_analysis.png         LDA主題分析圖
+✅ topic_modeling_results/TOPIC_MODELING_REPORT.md        主題建模報告
+
+### 情感分析
+✅ sentiment_analysis_results/sentiment_analysis.png      9個情感圖表
+✅ sentiment_analysis_results/SENTIMENT_ANALYSIS_REPORT.md  情感分析報告
+✅ sentiment_analysis_results/reviews_with_sentiment.csv   包含情感分數的資料
+
+### 主題優化（執行中）
+⏳ topic_optimization_results/topic_number_comparison.png    主題數量比較
+⏳ topic_optimization_results/TOPIC_OPTIMIZATION_REPORT.md    優化報告
+⏳ topic_optimization_results/recommended_models.pkl          推薦模型
+
+## 🌏 台美比較研究
+
+✅ TAIWAN_USA_COMPARISON_FRAMEWORK.md    台美比較框架
+✅ TOPIC_SELECTION_GUIDE.md              主題數量選擇指南
+✅ TOPIC_EVOLUTION_4_TO_7_ANALYSIS.md    主題演進分析（4→7）
+✅ QUICK_COMPARISON_YOUR_4_TO_NEW_7.md   快速對照表
+
+## 📊 資料檔案
+
+✅ cleaned_data_no_dedup/final_cleaned_sample_no_dedup.csv    主要資料 (3,363條)
+✅ cleaned_data_no_dedup/cleaning_report_no_dedup.txt         清理報告
+✅ cleaned_data/final_cleaned_sample.csv                      去重版本 (2,932條)
+
+## 🔧 分析腳本
+
+✅ eda_analysis.py                       EDA分析腳本
+✅ topic_modeling.py                     主題建模腳本
+✅ sentiment_analysis.py                 情感分析腳本
+⏳ topic_optimization_analysis.py        主題優化腳本（執行中）
+✅ clean_and_merge_hospitals.py          資料清理（去重）
+✅ clean_and_merge_hospitals_no_dedup.py 資料清理（保留）
+
+## 🛠️ 工具腳本
+
+✅ fix_ide_env.sh                        環境修復腳本
+✅ diagnose_env.py                       環境診斷工具
+✅ working_scraper.py                    評論爬蟲工具
+✅ batch_scrape_hospitals_20.py          批次爬蟲（完整版）
+✅ batch_scrape_hospitals_20_test.py     批次爬蟲（測試版）
+
+## 📝 參考文件
+
+✅ VERSION_COMPARISON.md                 資料版本對比
+✅ DATA_CLEANING_SUMMARY.md              資料清理總結
+✅ QUICK_FIX.md                          環境問題快速修復
+✅ TROUBLESHOOTING_NUMPY_IMPORT.md       疑難排解指南
+
+## 🏥 原始資料
+
+✅ hospital_reviews/*.csv                28家醫院原始評論CSV檔案
+
+## 📈 統計資訊
+
+總檔案數: 50+ 個
+視覺化圖表: 25+ 個
+分析報告: 15+ 個
+資料檔案: 5 個主要檔案
+分析腳本: 7 個
+
+## 🎯 快速開始建議
+
+1. 第一步: 閱讀 PROJECT_INDEX.md
+2. 第二步: 閱讀 QUICK_REFERENCE.md (5分鐘)
+3. 第三步: 根據需求查看相關報告
+4. 第四步: 查看視覺化圖表
+
+## 📞 常見檔案查詢
+
+需要什麼資訊？          → 查看這個檔案
+─────────────────────────────────────────────
+快速了解專案            → PROJECT_INDEX.md
+核心發現與痛點          → QUICK_REFERENCE.md
+完整分析報告            → ANALYSIS_SUMMARY.md
+視覺化圖表              → eda_results/eda_visualizations.png
+主題分析結果            → topic_modeling_results/TOPIC_MODELING_REPORT.md
+情感分析結果            → sentiment_analysis_results/SENTIMENT_ANALYSIS_REPORT.md
+台美比較框架            → TAIWAN_USA_COMPARISON_FRAMEWORK.md
+包含情感分數的資料      → sentiment_analysis_results/reviews_with_sentiment.csv
+環境問題修復            → QUICK_FIX.md
+重新執行分析            → *.py 腳本檔案
+
+## ✅ 檔案狀態說明
+
+✅ = 已完成並可使用
+⏳ = 執行中或待完成
+❌ = 不可用或已過時
+
+最後更新: 2025-10-28
