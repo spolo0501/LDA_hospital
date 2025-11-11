@@ -122,3 +122,11 @@ batch_scrape_*.log
 # ----------------
 # Git 不會追蹤空目錄，但可以用 .gitkeep 標記
 !.gitkeep
+
+# ----------------
+# Streamlit Cloud 展示資料（例外：允許提交）
+# ----------------
+!data_demo/**/*.xlsx
+!data_demo/**/*.pkl
+!results_demo/**/*.pkl
+!results_demo/**/*.png
