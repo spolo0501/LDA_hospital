@@ -48,6 +48,11 @@ USE_DEMO = os.getenv('USE_DEMO_DATA', 'false').lower() == 'true' or \
            (st.secrets.get('USE_DEMO_DATA', False) if hasattr(st, 'secrets') and st.secrets else False) or \
            IS_STREAMLIT_CLOUD
 
+# 強制使用 demo 資料在 Streamlit Cloud
+# 偵測 /mount/src 路徑（Streamlit Cloud 特徵）
+if os.path.exists('/mount/src'):
+    USE_DEMO = True
+
 if USE_DEMO:
     DATA_DIR = BASE_DIR / "data_demo"
     RESULTS_DIR = BASE_DIR / "results_demo"
@@ -464,6 +469,20 @@ def main():
     if model is None:
         st.error(f"❌ 找不到 K={k_value} 的 LDA 模型！")
         st.info(f"請確認以下路徑存在模型檔案: {RESULTS_DIR / f'taiwan_lda_k{k_value}'}")
+        # 除錯資訊
+        st.warning("🔍 除錯資訊:")
+        st.write(f"- BASE_DIR: {BASE_DIR}")
+        st.write(f"- USE_DEMO: {USE_DEMO}")
+        st.write(f"- IS_STREAMLIT_CLOUD: {IS_STREAMLIT_CLOUD}")
+        st.write(f"- RESULTS_DIR: {RESULTS_DIR}")
+        st.write(f"- /mount/src exists: {os.path.exists('/mount/src')}")
+        st.write(f"- STREAMLIT_SHARING_MODE: {os.getenv('STREAMLIT_SHARING_MODE')}")
+        model_dir = RESULTS_DIR / f'taiwan_lda_k{k_value}'
+        st.write(f"- model_dir exists: {model_dir.exists()}")
+        if model_dir.exists():
+            st.write(f"- Files in model_dir: {list(model_dir.glob('*'))}")
+        if BASE_DIR.exists():
+            st.write(f"- Dirs in BASE_DIR: {[d.name for d in BASE_DIR.iterdir() if d.is_dir()]}")
         return
 
     st.success(f"✅ 成功載入 K={k_value} 的 LDA 模型")
