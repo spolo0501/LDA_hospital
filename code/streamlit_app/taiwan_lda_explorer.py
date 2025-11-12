@@ -40,8 +40,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # 支援展示模式（用於 Streamlit Cloud 部署）
 # 本地開發：使用完整資料
 # Streamlit Cloud：使用展示資料（透過環境變數或 secrets 設定）
+# 自動偵測 Streamlit Cloud 環境
+IS_STREAMLIT_CLOUD = os.getenv('STREAMLIT_SHARING_MODE') is not None or \
+                      os.path.exists('/mount/src')
+
 USE_DEMO = os.getenv('USE_DEMO_DATA', 'false').lower() == 'true' or \
-           st.secrets.get('USE_DEMO_DATA', False) if hasattr(st, 'secrets') and st.secrets else False
+           (st.secrets.get('USE_DEMO_DATA', False) if hasattr(st, 'secrets') and st.secrets else False) or \
+           IS_STREAMLIT_CLOUD
 
 if USE_DEMO:
     DATA_DIR = BASE_DIR / "data_demo"
