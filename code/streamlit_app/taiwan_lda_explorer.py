@@ -80,12 +80,23 @@ def load_lda_model(k=7):
     model_dir = RESULTS_DIR / f"taiwan_lda_k{k}"
     model_path = model_dir / f"lda_k{k}_lda_model.pkl"
 
+    # 除錯訊息
+    st.sidebar.write(f"🔍 DEBUG: USE_DEMO = {USE_DEMO}")
+    st.sidebar.write(f"🔍 DEBUG: RESULTS_DIR = {RESULTS_DIR}")
+    st.sidebar.write(f"🔍 DEBUG: model_dir = {model_dir}")
+    st.sidebar.write(f"🔍 DEBUG: model_path exists = {model_path.exists()}")
+    st.sidebar.write(f"🔍 DEBUG: model_dir exists = {model_dir.exists()}")
+    if model_dir.exists():
+        st.sidebar.write(f"🔍 DEBUG: files in model_dir = {list(model_dir.glob('*'))}")
+
     if not model_path.exists():
         # 嘗試載入其他命名格式
         alt_paths = list(model_dir.glob("*lda_model.pkl"))
         if alt_paths:
             model_path = alt_paths[0]
+            st.sidebar.write(f"🔍 DEBUG: Using alt_path = {model_path}")
         else:
+            st.sidebar.write(f"❌ DEBUG: No model files found in {model_dir}")
             return None, None, None
 
     try:
