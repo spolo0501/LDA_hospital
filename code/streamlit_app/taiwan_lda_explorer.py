@@ -19,8 +19,43 @@ import os
 warnings.filterwarnings('ignore')
 
 # 設定 matplotlib 中文字體
-plt.rcParams['font.sans-serif'] = ['Arial Unicode MS', 'Microsoft YaHei', 'SimHei']
-plt.rcParams['axes.unicode_minus'] = False
+# 在 Streamlit Cloud 上需要特殊處理
+import matplotlib.font_manager as fm
+
+def setup_chinese_font():
+    """設定中文字型，支援本機和 Streamlit Cloud"""
+    # 重新載入字型快取（重要！）
+    fm._load_fontmanager(try_read_cache=False)
+
+    # 嘗試使用系統字型
+    available_fonts = [f.name for f in fm.fontManager.ttflist]
+
+    # 優先順序列表
+    chinese_fonts = [
+        'Noto Sans CJK TC',  # Streamlit Cloud 透過 packages.txt 安裝
+        'Noto Sans CJK SC',
+        'Arial Unicode MS',  # macOS
+        'Microsoft YaHei',   # Windows
+        'SimHei',
+        'STHeiti',
+        'PingFang TC'
+    ]
+
+    # 找到第一個可用的字型
+    selected_font = None
+    for font in chinese_fonts:
+        if font in available_fonts:
+            selected_font = font
+            plt.rcParams['font.sans-serif'] = [font]
+            break
+
+    if selected_font is None:
+        # 如果都找不到，嘗試使用路徑直接指定
+        plt.rcParams['font.sans-serif'] = ['Noto Sans CJK TC', 'sans-serif']
+
+    plt.rcParams['axes.unicode_minus'] = False
+
+setup_chinese_font()
 
 # ============================================================================
 # 頁面設定
