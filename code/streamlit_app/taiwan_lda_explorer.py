@@ -115,12 +115,7 @@ def load_lda_model(k=7):
 
         return model, dictionary, model_path
     except Exception as e:
-        import traceback
-        st.error(f"❌ 載入模型時發生錯誤: {e}")
-        st.error(f"錯誤類型: {type(e).__name__}")
-        st.code(traceback.format_exc())
-        st.error(f"模型路徑: {model_path}")
-        st.error(f"檔案大小: {model_path.stat().st_size if model_path.exists() else 'N/A'} bytes")
+        st.error(f"載入模型時發生錯誤: {e}")
         return None, None, None
 
 @st.cache_data
@@ -475,20 +470,6 @@ def main():
     if model is None:
         st.error(f"❌ 找不到 K={k_value} 的 LDA 模型！")
         st.info(f"請確認以下路徑存在模型檔案: {RESULTS_DIR / f'taiwan_lda_k{k_value}'}")
-        # 除錯資訊
-        st.warning("🔍 除錯資訊:")
-        st.write(f"- BASE_DIR: {BASE_DIR}")
-        st.write(f"- USE_DEMO: {USE_DEMO}")
-        st.write(f"- IS_STREAMLIT_CLOUD: {IS_STREAMLIT_CLOUD}")
-        st.write(f"- RESULTS_DIR: {RESULTS_DIR}")
-        st.write(f"- /mount/src exists: {os.path.exists('/mount/src')}")
-        st.write(f"- STREAMLIT_SHARING_MODE: {os.getenv('STREAMLIT_SHARING_MODE')}")
-        model_dir = RESULTS_DIR / f'taiwan_lda_k{k_value}'
-        st.write(f"- model_dir exists: {model_dir.exists()}")
-        if model_dir.exists():
-            st.write(f"- Files in model_dir: {list(model_dir.glob('*'))}")
-        if BASE_DIR.exists():
-            st.write(f"- Dirs in BASE_DIR: {[d.name for d in BASE_DIR.iterdir() if d.is_dir()]}")
         return
 
     st.success(f"✅ 成功載入 K={k_value} 的 LDA 模型")
