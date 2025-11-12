@@ -104,6 +104,7 @@ def load_lda_model(k=7):
                 model = loaded_data['lda_model']
             else:
                 st.error(f"模型檔案格式錯誤: 找不到 'lda_model' 鍵")
+                st.error(f"可用的鍵: {list(loaded_data.keys())}")
                 return None, None, None
         else:
             # 直接是模型物件
@@ -114,7 +115,12 @@ def load_lda_model(k=7):
 
         return model, dictionary, model_path
     except Exception as e:
-        st.error(f"載入模型時發生錯誤: {e}")
+        import traceback
+        st.error(f"❌ 載入模型時發生錯誤: {e}")
+        st.error(f"錯誤類型: {type(e).__name__}")
+        st.code(traceback.format_exc())
+        st.error(f"模型路徑: {model_path}")
+        st.error(f"檔案大小: {model_path.stat().st_size if model_path.exists() else 'N/A'} bytes")
         return None, None, None
 
 @st.cache_data
