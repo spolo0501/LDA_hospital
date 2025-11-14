@@ -119,12 +119,68 @@ Taiwan_USA_Hospital_Analysis/
 # 批次抓取的 log
 batch_scrape_*.log
 
+# ============================================
+# 只保留 Streamlit 部署需要的檔案
+# 其他都在本地保留，不上傳到 GitHub
+# ============================================
+
+# 文獻管理系統
+manuscripts/references/
+
+# 論文手稿和版本控制
+manuscripts/*.md
+manuscripts/archive/
+manuscripts/reports/
+manuscripts/versions/
+Literature_Review/
+
+# 各種指南文件
+*_GUIDE.md
+*_FIX.md
+*_STATUS.md
+*_SUMMARY.md
+*_README.md
+GIT_QUICK_REFERENCE.md
+Colab修復指南.md
+DATA_STRUCTURE.md
+EXAMPLE_WORKFLOW.md
+GITHUB_COMMIT_GUIDE.md
+LDA*.md
+
+# Claude 設定
+.claude/
+
+# Shell 腳本
+*.sh
+
+# 報告和輸出
+reports/
+model_analysis_output.txt
+
+# 程式碼（除了 streamlit_app）
+code/export/
+code/preprocessing/
+code/lda_analysis/
+code/comparison/
+code/scraping/
+
+# 完整資料和結果（只保留 demo）
+data/raw/
+data/processed/
+data/cleaned/
+results/taiwan_lda_k7/
+results/usa_lda_k7/
+results/uk_lda_k7/
+results/comparison/
+
+# 舊檔案
+archive/
+
 # 但保留重要的專案文檔
 !CLAUDE.md
 !README.md
 !DATA_STRUCTURE.md
 !FILE_STRUCTURE.md
-!*.md
 
 # ----------------
 # 保留的空目錄標記
