@@ -24,46 +24,52 @@ import matplotlib.font_manager as fm
 
 def setup_chinese_font():
     """設定中文字型，支援本機和 Streamlit Cloud"""
-    # 重新載入字型快取（重要！）
-    fm._load_fontmanager(try_read_cache=False)
+    import matplotlib
 
-    # 嘗試使用系統字型
-    available_fonts = [f.name for f in fm.fontManager.ttflist]
+    # 強制重新載入字型管理器
+    matplotlib.font_manager._load_fontmanager(try_read_cache=False)
 
-    # 優先順序列表
-    chinese_fonts = [
-        'Noto Sans CJK TC',  # Streamlit Cloud 透過 packages.txt 安裝
+    # 設定 matplotlib 使用 sans-serif 字型，並指定優先順序
+    matplotlib.rcParams['font.family'] = 'sans-serif'
+    matplotlib.rcParams['font.sans-serif'] = [
+        'Noto Sans CJK TC',
         'Noto Sans CJK SC',
         'Noto Sans TC',
         'Noto Sans SC',
-        'Arial Unicode MS',  # macOS
-        'Microsoft YaHei',   # Windows
+        'DejaVu Sans',
+        'Arial Unicode MS',
+        'Microsoft YaHei',
         'SimHei',
         'STHeiti',
-        'PingFang TC'
+        'PingFang TC',
+        'sans-serif'
     ]
+    matplotlib.rcParams['axes.unicode_minus'] = False
 
-    # 找到第一個可用的字型
-    selected_font = None
-    for font in chinese_fonts:
-        if font in available_fonts:
-            selected_font = font
-            plt.rcParams['font.sans-serif'] = [font]
-            print(f"✅ 使用中文字型: {font}")
-            break
+    # 檢查可用字型
+    available_fonts = [f.name for f in matplotlib.font_manager.fontManager.ttflist]
+    found_fonts = [f for f in matplotlib.rcParams['font.sans-serif'] if f in available_fonts]
 
-    if selected_font is None:
-        # 如果都找不到，嘗試使用路徑直接指定
-        plt.rcParams['font.sans-serif'] = ['Noto Sans CJK TC', 'sans-serif']
-        print("⚠️ 未找到預設中文字型，使用備用設定")
-        # 顯示可用的字型（用於除錯）
-        noto_fonts = [f for f in available_fonts if 'Noto' in f or 'CJK' in f]
-        if noto_fonts:
-            print(f"可用的 Noto/CJK 字型: {', '.join(noto_fonts[:5])}")
+    if found_fonts:
+        print(f"✅ 找到中文字型: {found_fonts[0]}")
+    else:
+        print(f"⚠️ 未找到優先字型，使用系統預設")
+        print(f"   可用的 Noto 字型: {[f for f in available_fonts if 'Noto' in f][:3]}")
 
-    plt.rcParams['axes.unicode_minus'] = False
-
+# 在載入時設定一次
 setup_chinese_font()
+
+# 同時設定 pyplot
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = [
+    'Noto Sans CJK TC',
+    'Noto Sans CJK SC',
+    'Noto Sans TC',
+    'Noto Sans SC',
+    'DejaVu Sans',
+    'sans-serif'
+]
+plt.rcParams['axes.unicode_minus'] = False
 
 # ============================================================================
 # 頁面設定
