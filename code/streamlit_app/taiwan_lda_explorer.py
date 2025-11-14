@@ -18,10 +18,11 @@ import re
 import os
 warnings.filterwarnings('ignore')
 
-# 導入醫院名稱對照表
+# 導入醫院名稱對照表和主題配置
 import sys
 sys.path.append(str(Path(__file__).parent))
 from hospital_names import get_hospital_name, HOSPITAL_NAMES
+from comparison_config import TAIWAN_TOPICS
 
 # 設定 matplotlib 中文字體
 # 在 Streamlit Cloud 上需要特殊處理
@@ -258,19 +259,23 @@ def load_stopwords():
 def load_all_reviews_with_ratings():
     """載入所有醫院的評論資料（包含評分）"""
     if not RAW_DATA_DIR.exists():
+        print(f"[ERROR] RAW_DATA_DIR 不存在: {RAW_DATA_DIR}")
         return None
 
     all_reviews = []
+    file_count = 0
     try:
         for file in sorted(RAW_DATA_DIR.glob("*.xlsx")):
             # 跳過分析結果檔案
             if 'analysis' in file.name or 'lda_k' in file.name:
                 continue
 
+            file_count += 1
             df = pd.read_excel(file)
             if 'review_text' in df.columns and 'rating' in df.columns:
                 # 提取需要的欄位
                 hospital_name = file.stem.split('_')[1] if '_' in file.stem else file.stem
+                print(f"[DEBUG] 載入檔案: {file.name} -> 醫院: {hospital_name}, 評論數: {len(df)}")
 
                 for _, row in df.iterrows():
                     # 確保 review_text 是字串且不為空
@@ -319,7 +324,15 @@ def load_all_reviews_with_ratings():
                         'date': date
                     })
 
-        return pd.DataFrame(all_reviews) if all_reviews else None
+        print(f"[DEBUG] 總共載入 {file_count} 個檔案, {len(all_reviews)} 條評論")
+        if all_reviews:
+            df = pd.DataFrame(all_reviews)
+            unique_hospitals = df['hospital'].unique()
+            print(f"[DEBUG] 唯一醫院數: {len(unique_hospitals)}, 醫院列表: {list(unique_hospitals)}")
+            return df
+        else:
+            print("[ERROR] 沒有載入任何評論資料")
+            return None
     except Exception as e:
         st.error(f"載入評論資料時發生錯誤: {e}")
         import traceback
@@ -576,7 +589,9 @@ def show_topic_overview(model, k_value):
         # 表格顯示
         for topic in topics:
             # 顯示更多關鍵詞在標題
-            with st.expander(f"**主題 {topic['topic_id']}**: {', '.join(topic['keywords'][:8])}..."):
+            topic_id = topic['topic_id']
+            topic_label = TAIWAN_TOPICS[topic_id]['label_zh'] if topic_id in TAIWAN_TOPICS else f"主題 {topic_id}"
+            with st.expander(f"**{topic_label}**: {', '.join(topic['keywords'][:8])}..."):
                 topic_df = pd.DataFrame({
                     '關鍵詞': topic['keywords'][:num_keywords],
                     '權重': topic['weights'][:num_keywords]
@@ -643,8 +658,20 @@ def show_hospital_rating_comparison(model, dictionary, k_value):
     # 獲取所有醫院列表（英文縮寫）
     all_hospitals_abbr = sorted(reviews_with_topics['hospital'].unique())
 
+    # 除錯訊息
+    print(f"[DEBUG] 醫院評分比較 - 找到 {len(all_hospitals_abbr)} 家醫院")
+    print(f"[DEBUG] 醫院縮寫列表: {all_hospitals_abbr}")
+
+    # 檢查是否有醫院資料
+    if len(all_hospitals_abbr) == 0:
+        st.error("❌ 沒有找到任何醫院資料！請檢查資料載入。")
+        st.info(f"資料目錄: {RAW_DATA_DIR}")
+        st.info(f"評論總數: {len(reviews_with_topics)}")
+        return
+
     # 創建中英文對照（顯示用中文，值用英文縮寫）
     hospital_options = {get_hospital_name(abbr): abbr for abbr in all_hospitals_abbr}
+    print(f"[DEBUG] 醫院選項數量: {len(hospital_options)}")
 
     # 選擇要比較的醫院
     st.subheader("選擇要比較的醫院")
@@ -881,6 +908,12 @@ def show_hospital_comparison(model, dictionary, k_value):
         )
         st.dataframe(dist_df.style.format("{:.4f}"), use_container_width=True)
 
+def get_topic_label(topic_id):
+    """獲取主題的中文標籤"""
+    if topic_id in TAIWAN_TOPICS:
+        return f"主題 {topic_id}: {TAIWAN_TOPICS[topic_id]['label_zh']}"
+    return f"主題 {topic_id}"
+
 def show_topic_exploration(model, k_value):
     """顯示主題深入探索頁面"""
     st.header("🔍 主題深入探索")
@@ -889,13 +922,14 @@ def show_topic_exploration(model, k_value):
     topic_id = st.selectbox(
         "選擇主題",
         range(model.num_topics),
-        format_func=lambda x: f"主題 {x}"
+        format_func=lambda x: get_topic_label(x)
     )
 
     st.markdown("---")
 
     # 顯示主題關鍵詞（增加到30個）
-    st.subheader(f"主題 {topic_id} - 關鍵詞與權重")
+    topic_label = TAIWAN_TOPICS[topic_id]['label_zh'] if topic_id in TAIWAN_TOPICS else f"主題 {topic_id}"
+    st.subheader(f"{topic_label} - 關鍵詞與權重")
     topic_words = model.show_topic(topic_id, topn=30)
     topic_df = pd.DataFrame(topic_words, columns=['關鍵詞', '權重'])
 
@@ -908,7 +942,7 @@ def show_topic_exploration(model, k_value):
 
     # 新增：顯示該主題的評論
     st.markdown("---")
-    st.subheader(f"📝 主題 {topic_id} 的代表性評論")
+    st.subheader(f"📝 {topic_label} 的代表性評論")
 
     with st.spinner("載入評論資料..."):
         # 載入評論資料
