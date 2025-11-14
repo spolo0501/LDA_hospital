@@ -18,6 +18,11 @@ import re
 import os
 warnings.filterwarnings('ignore')
 
+# 導入醫院名稱對照表
+import sys
+sys.path.append(str(Path(__file__).parent))
+from hospital_names import get_hospital_name, HOSPITAL_NAMES
+
 # 設定 matplotlib 中文字體
 # 在 Streamlit Cloud 上需要特殊處理
 import matplotlib.font_manager as fm
@@ -113,7 +118,7 @@ else:
 
 @st.cache_data(ttl=60)  # 強制每 60 秒重新載入一次
 def load_hospital_list():
-    """載入醫院列表"""
+    """載入醫院列表（返回英文縮寫列表）"""
     hospitals = []
     print(f"[DEBUG] RAW_DATA_DIR = {RAW_DATA_DIR}")
     print(f"[DEBUG] RAW_DATA_DIR.exists() = {RAW_DATA_DIR.exists()}")
@@ -131,12 +136,12 @@ def load_hospital_list():
             print(f"[DEBUG] File: {file.name}, Parts: {name_part}")
 
             if len(name_part) >= 2:
-                hospital_name = name_part[1]
-                hospitals.append(hospital_name)
+                hospital_abbr = name_part[1]  # 英文縮寫
+                hospitals.append(hospital_abbr)
     else:
         print(f"[ERROR] RAW_DATA_DIR does not exist: {RAW_DATA_DIR}")
 
-    print(f"[DEBUG] Loaded {len(hospitals)} hospitals")
+    print(f"[DEBUG] Loaded {len(hospitals)} hospitals: {hospitals}")
     return hospitals
 
 @st.cache_resource
@@ -635,16 +640,22 @@ def show_hospital_rating_comparison(model, dictionary, k_value):
 
     st.success(f"✅ 成功分析 {len(reviews_with_topics)} 條評論")
 
-    # 獲取所有醫院列表
-    all_hospitals = sorted(reviews_with_topics['hospital'].unique())
+    # 獲取所有醫院列表（英文縮寫）
+    all_hospitals_abbr = sorted(reviews_with_topics['hospital'].unique())
+
+    # 創建中英文對照（顯示用中文，值用英文縮寫）
+    hospital_options = {get_hospital_name(abbr): abbr for abbr in all_hospitals_abbr}
 
     # 選擇要比較的醫院
     st.subheader("選擇要比較的醫院")
-    selected_hospitals = st.multiselect(
+    selected_hospital_names = st.multiselect(
         "選擇醫院（建議 3-8 家以便清楚比較）",
-        all_hospitals,
-        default=all_hospitals[:5] if len(all_hospitals) >= 5 else all_hospitals
+        options=list(hospital_options.keys()),  # 顯示中文名稱
+        default=list(hospital_options.keys())[:5] if len(hospital_options) >= 5 else list(hospital_options.keys())
     )
+
+    # 轉換回英文縮寫進行資料處理
+    selected_hospitals = [hospital_options[name] for name in selected_hospital_names]
 
     if len(selected_hospitals) == 0:
         st.warning("⚠️ 請至少選擇 1 家醫院")
@@ -697,7 +708,9 @@ def show_hospital_rating_comparison(model, dictionary, k_value):
             hospital_data = ratings_df[ratings_df['hospital'] == hospital]
             ratings = [hospital_data[hospital_data['topic'] == t]['avg_rating'].values[0] for t in range(k_value)]
             offset = (idx - len(selected_hospitals)/2) * width + width/2
-            ax.bar(x + offset, ratings, width, label=hospital, alpha=0.8)
+            # 使用簡短中文名稱作為圖例
+            hospital_display = get_hospital_name(hospital, use_short=True)
+            ax.bar(x + offset, ratings, width, label=hospital_display, alpha=0.8)
 
         ax.set_xlabel('主題編號', fontsize=12)
         ax.set_ylabel('平均評分（星級）', fontsize=12)
@@ -729,7 +742,8 @@ def show_hospital_rating_comparison(model, dictionary, k_value):
         ax.set_xticks(np.arange(k_value))
         ax.set_yticks(np.arange(len(selected_hospitals)))
         ax.set_xticklabels([f'主題 {i}' for i in range(k_value)])
-        ax.set_yticklabels(selected_hospitals)
+        # 使用簡短中文名稱
+        ax.set_yticklabels([get_hospital_name(h, use_short=True) for h in selected_hospitals])
 
         # 在格子中顯示數值
         for i in range(len(selected_hospitals)):
@@ -751,7 +765,9 @@ def show_hospital_rating_comparison(model, dictionary, k_value):
         for hospital in selected_hospitals:
             hospital_data = ratings_df[ratings_df['hospital'] == hospital]
             ratings = [hospital_data[hospital_data['topic'] == t]['avg_rating'].values[0] for t in range(k_value)]
-            ax.plot(range(k_value), ratings, marker='o', label=hospital, linewidth=2)
+            # 使用簡短中文名稱
+            hospital_display = get_hospital_name(hospital, use_short=True)
+            ax.plot(range(k_value), ratings, marker='o', label=hospital_display, linewidth=2)
 
         ax.set_xlabel('主題編號', fontsize=12)
         ax.set_ylabel('平均評分（星級）', fontsize=12)
