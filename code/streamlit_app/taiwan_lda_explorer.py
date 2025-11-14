@@ -91,26 +91,52 @@ st.set_page_config(
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # 資料路徑設定
-# 現在 Streamlit Cloud 已上傳完整資料，統一使用 data/ 目錄
+# 優先使用完整資料，如果不存在則回退到 demo 資料
 DATA_DIR = BASE_DIR / "data"
-RESULTS_DIR = BASE_DIR / "results"
-RAW_DATA_DIR = DATA_DIR / "raw" / "taiwan"
-PROCESSED_DATA_DIR = DATA_DIR / "processed" / "taiwan"
+DATA_DEMO_DIR = BASE_DIR / "data_demo"
+
+# 檢查完整資料是否存在
+if (DATA_DIR / "raw" / "taiwan").exists():
+    RAW_DATA_DIR = DATA_DIR / "raw" / "taiwan"
+    PROCESSED_DATA_DIR = DATA_DIR / "processed" / "taiwan"
+    RESULTS_DIR = BASE_DIR / "results"
+    print("[INFO] Using full data directory")
+else:
+    RAW_DATA_DIR = DATA_DEMO_DIR / "raw" / "taiwan"
+    PROCESSED_DATA_DIR = DATA_DEMO_DIR / "processed"
+    RESULTS_DIR = BASE_DIR / "results_demo"
+    print("[INFO] Full data not found, falling back to demo data")
 
 # ============================================================================
 # 快取資料載入函數
 # ============================================================================
 
-@st.cache_data
+@st.cache_data(ttl=60)  # 強制每 60 秒重新載入一次
 def load_hospital_list():
     """載入醫院列表"""
     hospitals = []
+    print(f"[DEBUG] RAW_DATA_DIR = {RAW_DATA_DIR}")
+    print(f"[DEBUG] RAW_DATA_DIR.exists() = {RAW_DATA_DIR.exists()}")
+
     if RAW_DATA_DIR.exists():
-        for file in sorted(RAW_DATA_DIR.glob("*.xlsx")):
+        xlsx_files = list(RAW_DATA_DIR.glob("*.xlsx"))
+        print(f"[DEBUG] Found {len(xlsx_files)} xlsx files")
+
+        for file in sorted(xlsx_files):
+            # 排除分析結果檔案
+            if 'lda_k' in file.stem or 'analysis' in file.stem:
+                continue
+
             name_part = file.stem.split('_')
+            print(f"[DEBUG] File: {file.name}, Parts: {name_part}")
+
             if len(name_part) >= 2:
                 hospital_name = name_part[1]
                 hospitals.append(hospital_name)
+    else:
+        print(f"[ERROR] RAW_DATA_DIR does not exist: {RAW_DATA_DIR}")
+
+    print(f"[DEBUG] Loaded {len(hospitals)} hospitals")
     return hospitals
 
 @st.cache_resource
