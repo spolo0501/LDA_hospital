@@ -34,6 +34,8 @@ def setup_chinese_font():
     matplotlib.rcParams['font.sans-serif'] = [
         'Noto Sans CJK TC',
         'Noto Sans CJK SC',
+        'Noto Sans CJK JP',  # Streamlit Cloud 安裝的是 JP 版本
+        'Noto Sans CJK KR',
         'Noto Sans TC',
         'Noto Sans SC',
         'DejaVu Sans',
@@ -64,6 +66,8 @@ plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = [
     'Noto Sans CJK TC',
     'Noto Sans CJK SC',
+    'Noto Sans CJK JP',  # Streamlit Cloud 實際安裝的版本
+    'Noto Sans CJK KR',
     'Noto Sans TC',
     'Noto Sans SC',
     'DejaVu Sans',
