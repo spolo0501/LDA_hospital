@@ -4,16 +4,16 @@
 # ============================================
 
 # ----------------
-# 資料檔案（太大，不適合 Git）
+# 資料檔案
 # ----------------
-# 原始評論資料
+# 原始評論資料（允許上傳 XLSX，忽略過大的 CSV 和 JSON）
 data/raw/**/*.csv
-data/raw/**/*.xlsx
+# data/raw/**/*.xlsx  # 允許上傳醫院資料
 data/raw/**/*.json
 
-# 處理後的資料
+# 處理後的資料（允許上傳統計檔案）
 data/processed/**/*.csv
-data/processed/**/*.txt
+# data/processed/**/*.txt  # 允許上傳統計檔案
 data/cleaned/**/*.csv
 
 # Google Reviews 輸出
@@ -164,11 +164,14 @@ code/lda_analysis/
 code/comparison/
 code/scraping/
 
-# 完整資料和結果（只保留 demo）
-data/raw/
-data/processed/
+# 完整資料和結果（暫時允許上傳以支援完整分析）
+# data/raw/  # 允許上傳完整資料
+data/raw/**/*.csv  # 但仍忽略 CSV（太大）
+data/raw/**/*.json  # 忽略 JSON
+# data/processed/  # 允許上傳統計檔案
 data/cleaned/
-results/taiwan_lda_k7/
+results/taiwan_lda_k7/**/*.pkl  # 忽略模型檔案（太大）
+results/taiwan_lda_k7/**/*.png  # 忽略圖表
 results/usa_lda_k7/
 results/uk_lda_k7/
 results/comparison/
