@@ -25,56 +25,56 @@ USA_DATA_PATH = BASE_DIR / "results/usa_lda_k7/usa_k6_topic_analysis_20251107_12
 
 TAIWAN_TOPICS = {
     0: {
-        "label_zh": "醫療專業認可",
-        "label_en": "Medical Professional Recognition",
+        "label_zh": "醫療專業品質",
+        "label_en": "Medical Professional Quality",
         "emoji": "T0",
         "sentiment": "positive",
         "keywords": ["醫師", "護理師", "專業", "感謝", "謝謝", "親切", "耐心"],
         "description": "病患對醫護人員專業能力與態度的肯定"
     },
     1: {
-        "label_zh": "就診流程與等候",
-        "label_en": "Process & Waiting Time",
+        "label_zh": "掛號批價流程",
+        "label_en": "Registration & Billing Process",
         "emoji": "T1",
         "sentiment": "negative",
-        "keywords": ["時間", "報到", "看診", "掛號", "預約", "等待"],
-        "description": "掛號、報到、看診流程與等候時間問題"
+        "keywords": ["時間", "報到", "看診", "掛號", "預約", "領藥"],
+        "description": "掛號、批價、領藥流程與等候時間問題"
     },
     2: {
         "label_zh": "服務態度問題",
         "label_en": "Service Attitude Issues",
         "emoji": "T2",
         "sentiment": "negative",
-        "keywords": ["態度", "病人", "護理師", "不是", "服務"],
+        "keywords": ["態度", "病人", "護理師", "不耐煩", "服務"],
         "description": "醫護人員與行政人員的服務態度不佳"
     },
     3: {
-        "label_zh": "設施與便利性",
-        "label_en": "Facility & Convenience",
+        "label_zh": "環境設施品質",
+        "label_en": "Facility & Environment Quality",
         "emoji": "T3",
         "sentiment": "neutral",
         "keywords": ["停車場", "方便", "電梯", "動線", "流程"],
-        "description": "醫院設施、停車、動線等便利性議題"
+        "description": "醫院環境設施、停車、動線等品質議題"
     },
     4: {
-        "label_zh": "手術治療成功",
-        "label_en": "Surgical Success",
+        "label_zh": "手術專科表現",
+        "label_en": "Surgical & Specialty Care",
         "emoji": "T4",
         "sentiment": "positive",
-        "keywords": ["手術", "開刀", "外科", "骨科", "成功"],
-        "description": "手術治療成功的正面回饋"
+        "keywords": ["手術", "開刀", "外科", "骨科", "治療"],
+        "description": "手術與專科治療的醫療表現"
     },
     5: {
-        "label_zh": "住院照護品質",
-        "label_en": "Inpatient Care",
+        "label_zh": "住院照護經驗",
+        "label_en": "Inpatient Care Experience",
         "emoji": "T5",
         "sentiment": "neutral",
         "keywords": ["病房", "住院", "家屬", "護理", "出院"],
-        "description": "住院期間的照護品質與家屬互動"
+        "description": "住院期間的照護經驗與家屬互動"
     },
     6: {
-        "label_zh": "急診與溝通",
-        "label_en": "Emergency & Communication",
+        "label_zh": "急診醫療服務",
+        "label_en": "Emergency Medical Services",
         "emoji": "T6",
         "sentiment": "negative",
         "keywords": ["急診", "醫生", "知道", "問題", "檢查"],

@@ -90,38 +90,12 @@ st.set_page_config(
 # ============================================================================
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-# 支援展示模式（用於 Streamlit Cloud 部署）
-# 本地開發：使用完整資料
-# Streamlit Cloud：使用展示資料（透過環境變數或 secrets 設定）
-# 自動偵測 Streamlit Cloud 環境
-IS_STREAMLIT_CLOUD = os.getenv('STREAMLIT_SHARING_MODE') is not None or \
-                      os.path.exists('/mount/src')
-
-# 安全地檢查 secrets
-USE_DEMO_FROM_SECRETS = False
-try:
-    USE_DEMO_FROM_SECRETS = st.secrets.get('USE_DEMO_DATA', False)
-except Exception:
-    pass
-
-USE_DEMO = os.getenv('USE_DEMO_DATA', 'false').lower() == 'true' or \
-           USE_DEMO_FROM_SECRETS or \
-           IS_STREAMLIT_CLOUD
-
-# 強制使用 demo 資料在 Streamlit Cloud
-# 偵測 /mount/src 路徑（Streamlit Cloud 特徵）
-if os.path.exists('/mount/src'):
-    USE_DEMO = True
-
-if USE_DEMO:
-    DATA_DIR = BASE_DIR / "data_demo"
-    RESULTS_DIR = BASE_DIR / "results_demo"
-else:
-    DATA_DIR = BASE_DIR / "data"
-    RESULTS_DIR = BASE_DIR / "results"
-
+# 資料路徑設定
+# 現在 Streamlit Cloud 已上傳完整資料，統一使用 data/ 目錄
+DATA_DIR = BASE_DIR / "data"
+RESULTS_DIR = BASE_DIR / "results"
 RAW_DATA_DIR = DATA_DIR / "raw" / "taiwan"
-PROCESSED_DATA_DIR = DATA_DIR / "processed" / "taiwan" if not USE_DEMO else DATA_DIR / "processed"
+PROCESSED_DATA_DIR = DATA_DIR / "processed" / "taiwan"
 
 # ============================================================================
 # 快取資料載入函數
