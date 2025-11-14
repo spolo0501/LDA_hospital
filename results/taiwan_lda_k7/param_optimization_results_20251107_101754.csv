@@ -1,6 +1,0 @@
-﻿test_name,description,alpha,eta,iterations,passes,coherence,perplexity,training_time_sec,status
-Baseline,當前參數（基準）,symmetric,auto,100,10,0.41750379129546905,-7.503850150962788,8.836091995239258,Success
-Test-1-Asymmetric,Asymmetric alpha,asymmetric,auto,100,10,0.419953075418208,-7.4943034524893415,8.804946184158325,Success
-Test-2-LowEta,低eta (0.01),symmetric,0.01,100,10,0.42501123434887716,-9.15881373132572,8.776340007781982,Success
-Test-3-Combo,Asymmetric + 低eta,asymmetric,0.01,100,10,0.42061689914738326,-9.150455875031932,8.736413955688477,Success
-Test-4-AllOpt,全面優化,asymmetric,0.01,150,15,0.4226183959133083,-9.129700307581366,11.803835153579712,Success
