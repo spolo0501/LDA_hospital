@@ -34,6 +34,8 @@ def setup_chinese_font():
     chinese_fonts = [
         'Noto Sans CJK TC',  # Streamlit Cloud 透過 packages.txt 安裝
         'Noto Sans CJK SC',
+        'Noto Sans TC',
+        'Noto Sans SC',
         'Arial Unicode MS',  # macOS
         'Microsoft YaHei',   # Windows
         'SimHei',
@@ -47,11 +49,17 @@ def setup_chinese_font():
         if font in available_fonts:
             selected_font = font
             plt.rcParams['font.sans-serif'] = [font]
+            print(f"✅ 使用中文字型: {font}")
             break
 
     if selected_font is None:
         # 如果都找不到，嘗試使用路徑直接指定
         plt.rcParams['font.sans-serif'] = ['Noto Sans CJK TC', 'sans-serif']
+        print("⚠️ 未找到預設中文字型，使用備用設定")
+        # 顯示可用的字型（用於除錯）
+        noto_fonts = [f for f in available_fonts if 'Noto' in f or 'CJK' in f]
+        if noto_fonts:
+            print(f"可用的 Noto/CJK 字型: {', '.join(noto_fonts[:5])}")
 
     plt.rcParams['axes.unicode_minus'] = False
 
