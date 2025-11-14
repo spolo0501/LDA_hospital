@@ -16,11 +16,12 @@ cd "$PROJECT_ROOT"
 CPU_BRAND=$(sysctl -n machdep.cpu.brand_string 2>/dev/null || echo "")
 if [[ "$CPU_BRAND" == *"Apple"* ]]; then
     echo "🍎 檢測到 Apple Silicon ($CPU_BRAND)"
-    # 強制使用 ARM64 架構
-    PYTHON_CMD="arch -arm64 python3"
-    VENV_PYTHON="arch -arm64 venv/bin/python"
-    VENV_PIP="arch -arm64 venv/bin/pip"
-    STREAMLIT_CMD="arch -arm64"
+    echo "🚀 使用 ARM64 原生架構（最佳性能）"
+    # 使用系統 Python 並強制 ARM64 架構
+    PYTHON_CMD="arch -arm64 /usr/bin/python3"
+    VENV_PYTHON="venv/bin/python"
+    VENV_PIP="venv/bin/pip"
+    STREAMLIT_CMD=""
 else
     ARCH=$(uname -m)
     if [ "$ARCH" = "arm64" ]; then

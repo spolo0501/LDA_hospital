@@ -1,0 +1,895 @@
+# 文獻下載清單
+# 建議透過學校圖書館代理或 Google Scholar 下載
+
+
+================================================================================
+[1/56] Blei_2003_Latent_Dirichlet_allocation.pdf
+================================================================================
+
+Title: Latent Dirichlet allocation
+Authors: Blei, D.M., Ng, A.Y., Jordan, M.I.
+Year: 2003
+Journal: Journal of Machine Learning Research
+Volume: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Latent%20Dirichlet%20allocation%20Blei%202003
+  Sci-Hub (備用): https://sci-hub.se/Latent%20Dirichlet%20allocation
+
+
+================================================================================
+[2/56] Brady_2001_Some_new_thoughts_on_conceptualizing_perceived_ser.pdf
+================================================================================
+
+Title: Some new thoughts on conceptualizing perceived service quality: A hierarchical approach
+Authors: Brady, M.K., Cronin, J.J.
+Year: 2001
+Journal: Journal of Marketing
+Volume: 65
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Some%20new%20thoughts%20on%20conceptualizing%20perceived%20service%20quality%3A%20A%20hierarchical%20approach%20Brady%202001
+  Sci-Hub (備用): https://sci-hub.se/Some%20new%20thoughts%20on%20conceptualizing%20perceived%20service%20quality%3A%20A%20hierarchical%20approach
+
+
+================================================================================
+[3/56] Carman_1990_Consumer_perceptions_of_service_quality_An_assess.pdf
+================================================================================
+
+Title: Consumer perceptions of service quality: An assessment of the SERVQUAL dimensions
+Authors: Carman, J.M.
+Year: 1990
+Journal: Journal of Retailing
+Volume: 66
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Consumer%20perceptions%20of%20service%20quality%3A%20An%20assessment%20of%20the%20SERVQUAL%20dimensions%20Carman%201990
+  Sci-Hub (備用): https://sci-hub.se/Consumer%20perceptions%20of%20service%20quality%3A%20An%20assessment%20of%20the%20SERVQUAL%20dimensions
+
+
+================================================================================
+[4/56] Dagger_2007_A_hierarchical_model_of_health_service_quality_Sc.pdf
+================================================================================
+
+Title: A hierarchical model of health service quality: Scale development and investigation of an integrated model
+Authors: Dagger, T.S., Sweeney, J.C., Johnson, L.W.
+Year: 2007
+Journal: Journal of Service Research
+Volume: 10
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=A%20hierarchical%20model%20of%20health%20service%20quality%3A%20Scale%20development%20and%20investigation%20of%20an%20integrated%20model%20Dagger%202007
+  Sci-Hub (備用): https://sci-hub.se/A%20hierarchical%20model%20of%20health%20service%20quality%3A%20Scale%20development%20and%20investigation%20of%20an%20integrated%20model
+
+
+================================================================================
+[5/56] Fung_2008_Systematic_review_The_evidence_that_publishing_pa.pdf
+================================================================================
+
+Title: Systematic review: The evidence that publishing patient care performance data improves quality of care
+Authors: Fung, C.H., Lim, Y.W., Mattke, S. et al.
+Year: 2008
+Journal: Annals of Internal Medicine
+Volume: 148
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Systematic%20review%3A%20The%20evidence%20that%20publishing%20patient%20care%20performance%20data%20improves%20quality%20of%20care%20Fung%202008
+  Sci-Hub (備用): https://sci-hub.se/Systematic%20review%3A%20The%20evidence%20that%20publishing%20patient%20care%20performance%20data%20improves%20quality%20of%20care
+
+
+================================================================================
+[6/56] Harzing_2006_Response_styles_in_cross_national_survey_research.pdf
+================================================================================
+
+Title: Response styles in cross-national survey research: A 26-country study
+Authors: Harzing, A.W.
+Year: 2006
+Journal: International Journal of Cross Cultural Management
+Volume: 6
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Response%20styles%20in%20cross-national%20survey%20research%3A%20A%2026-country%20study%20Harzing%202006
+  Sci-Hub (備用): https://sci-hub.se/Response%20styles%20in%20cross-national%20survey%20research%3A%20A%2026-country%20study
+
+
+================================================================================
+[7/56] Parasuraman_1988_SERVQUAL_A_multiple_item_scale_for_measuring_cons.pdf
+================================================================================
+
+Title: SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality
+Authors: Parasuraman, A., Zeithaml, V.A., Berry, L.L.
+Year: 1988
+Journal: Journal of Retailing
+Volume: 64
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=SERVQUAL%3A%20A%20multiple-item%20scale%20for%20measuring%20consumer%20perceptions%20of%20service%20quality%20Parasuraman%201988
+  Sci-Hub (備用): https://sci-hub.se/SERVQUAL%3A%20A%20multiple-item%20scale%20for%20measuring%20consumer%20perceptions%20of%20service%20quality
+
+
+================================================================================
+[8/56] Ranard_2016_Yelp_reviews_of_hospital_care_can_supplement_and_i.pdf
+================================================================================
+
+Title: Yelp reviews of hospital care can supplement and inform traditional surveys of the patient experience of care
+Authors: Ranard, B.L., Werner, R.M., Antanavicius, T. et al.
+Year: 2016
+Journal: Health Affairs
+Volume: 35
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Yelp%20reviews%20of%20hospital%20care%20can%20supplement%20and%20inform%20traditional%20surveys%20of%20the%20patient%20experience%20of%20care%20Ranard%202016
+  Sci-Hub (備用): https://sci-hub.se/Yelp%20reviews%20of%20hospital%20care%20can%20supplement%20and%20inform%20traditional%20surveys%20of%20the%20patient%20experience%20of%20care
+
+
+================================================================================
+[9/56] Yoon_2021_Differences_in_trends_of_perceived_inpatient_care_.pdf
+================================================================================
+
+Title: Differences in trends of perceived inpatient care quality based on regional socioeconomic level in the United States and Taiwan
+Authors: Yoon, G.H., Cheng, S.H.
+Year: 2021
+Journal: Health Services Research
+Volume: 56
+Issue: 6
+
+下載連結:
+  DOI: https://doi.org/10.1111/1475-6773.13872
+  Google Scholar: https://scholar.google.com/scholar?q=Differences%20in%20trends%20of%20perceived%20inpatient%20care%20quality%20based%20on%20regional%20socioeconomic%20level%20in%20the%20United%20States%20and%20Taiwan%20Yoon%202021
+  Sci-Hub (備用): https://sci-hub.se/10.1111/1475-6773.13872
+  Publisher: https://onlinelibrary.wiley.com/doi/10.1111/1475-6773.13872
+
+
+================================================================================
+[10/56] Alhazzani_2023_Arabic_patient_experience_comment_classification.pdf
+================================================================================
+
+Title: Arabic patient experience comment classification
+Authors: Alhazzani, N.Z., Al-Turaiki, I.M., Alkhodair, S.A.
+Year: 2023
+Journal: IEEE Access
+Volume: 11
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Arabic%20patient%20experience%20comment%20classification%20Alhazzani%202023
+  Sci-Hub (備用): https://sci-hub.se/Arabic%20patient%20experience%20comment%20classification
+
+
+================================================================================
+[11/56] Andaleeb_2001_Service_quality_perceptions_and_patient_satisfacti.pdf
+================================================================================
+
+Title: Service quality perceptions and patient satisfaction: a study of hospitals in a developing country
+Authors: Andaleeb, S.S.
+Year: 2001
+Journal: Social Science & Medicine
+Volume: 52
+Issue: 9
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Service%20quality%20perceptions%20and%20patient%20satisfaction%3A%20a%20study%20of%20hospitals%20in%20a%20developing%20country%20Andaleeb%202001
+  Sci-Hub (備用): https://sci-hub.se/Service%20quality%20perceptions%20and%20patient%20satisfaction%3A%20a%20study%20of%20hospitals%20in%20a%20developing%20country
+
+
+================================================================================
+[12/56] Arnold_2016_Evaluating_patient_perceptions_on_Medicare_Access_.pdf
+================================================================================
+
+Title: Evaluating patient perceptions on Medicare Access and CHIP Reauthorization Act quality measures
+Authors: Arnold, C.W., Tan, S.S., Thadaney-Israni, S. et al.
+Year: 2016
+Journal: Journal of the American Medical Informatics Association
+Volume: 23
+Issue: e1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Evaluating%20patient%20perceptions%20on%20Medicare%20Access%20and%20CHIP%20Reauthorization%20Act%20quality%20measures%20Arnold%202016
+  Sci-Hub (備用): https://sci-hub.se/Evaluating%20patient%20perceptions%20on%20Medicare%20Access%20and%20CHIP%20Reauthorization%20Act%20quality%20measures
+
+
+================================================================================
+[13/56] Athira_2021_Breast_cancer_risk_prediction_using_BiLSTM.pdf
+================================================================================
+
+Title: Breast cancer risk prediction using BiLSTM
+Authors: Athira, B., Jones, J., Idicula, S.M.
+Year: 2021
+Journal: IEEE Transactions on Computational Social Systems
+Volume: 8
+Issue: 5
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Breast%20cancer%20risk%20prediction%20using%20BiLSTM%20Athira%202021
+  Sci-Hub (備用): https://sci-hub.se/Breast%20cancer%20risk%20prediction%20using%20BiLSTM
+
+
+================================================================================
+[14/56] Bardach_2013_The_relationship_between_commercial_website_rating.pdf
+================================================================================
+
+Title: The relationship between commercial website ratings and traditional hospital performance measures in the USA
+Authors: Bardach, N.S., Asteria-Peñaloza, R., Boscardin, W.J. et al.
+Year: 2013
+Journal: BMJ Quality & Safety
+Volume: 22
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20relationship%20between%20commercial%20website%20ratings%20and%20traditional%20hospital%20performance%20measures%20in%20the%20USA%20Bardach%202013
+  Sci-Hub (備用): https://sci-hub.se/The%20relationship%20between%20commercial%20website%20ratings%20and%20traditional%20hospital%20performance%20measures%20in%20the%20USA
+
+
+================================================================================
+[15/56] Berry_2007_Health_care_a_fertile_field_for_service_research.pdf
+================================================================================
+
+Title: Health care: a fertile field for service research
+Authors: Berry, L.L., Bendapudi, N.
+Year: 2007
+Journal: Journal of Service Research
+Volume: 10
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Health%20care%3A%20a%20fertile%20field%20for%20service%20research%20Berry%202007
+  Sci-Hub (備用): https://sci-hub.se/Health%20care%3A%20a%20fertile%20field%20for%20service%20research
+
+
+================================================================================
+[16/56] Blei_2012_Probabilistic_topic_models.pdf
+================================================================================
+
+Title: Probabilistic topic models
+Authors: Blei, D.M.
+Year: 2012
+Journal: Communications of the ACM
+Volume: 55
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Probabilistic%20topic%20models%20Blei%202012
+  Sci-Hub (備用): https://sci-hub.se/Probabilistic%20topic%20models
+
+
+================================================================================
+[17/56] Boyd-Graber_2017_Applications_of_topic_models.pdf
+================================================================================
+
+Title: Applications of topic models
+Authors: Boyd-Graber, J., Hu, Y., Mimno, D.
+Year: 2017
+Journal: Foundations and Trends in Information Retrieval
+Volume: 11
+Issue: 2-3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Applications%20of%20topic%20models%20Boyd-Graber%202017
+  Sci-Hub (備用): https://sci-hub.se/Applications%20of%20topic%20models
+
+
+================================================================================
+[18/56] Buttle_1996_SERVQUAL_review_critique_research_agenda.pdf
+================================================================================
+
+Title: SERVQUAL: review, critique, research agenda
+Authors: Buttle, F.
+Year: 1996
+Journal: European Journal of Marketing
+Volume: 30
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=SERVQUAL%3A%20review%2C%20critique%2C%20research%20agenda%20Buttle%201996
+  Sci-Hub (備用): https://sci-hub.se/SERVQUAL%3A%20review%2C%20critique%2C%20research%20agenda
+
+
+================================================================================
+[19/56] Chang_2024_Impact_of_care_coordination_on_30_day_readmission.pdf
+================================================================================
+
+Title: Impact of care coordination on 30-day readmission, mortality, and costs for heart failure
+Authors: Chang, G.M., Tung, Y.C.
+Year: 2024
+Journal: American Journal of Managed Care
+Volume: 30
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Impact%20of%20care%20coordination%20on%2030-day%20readmission%2C%20mortality%2C%20and%20costs%20for%20heart%20failure%20Chang%202024
+  Sci-Hub (備用): https://sci-hub.se/Impact%20of%20care%20coordination%20on%2030-day%20readmission%2C%20mortality%2C%20and%20costs%20for%20heart%20failure
+
+
+================================================================================
+[20/56] Cheng_2012_The_effect_of_universal_health_insurance_on_health.pdf
+================================================================================
+
+Title: The effect of universal health insurance on health care utilization in Taiwan: Results from a natural experiment
+Authors: Cheng, S.H., Chiang, T.L.
+Year: 2012
+Journal: JAMA
+Volume: 278
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20effect%20of%20universal%20health%20insurance%20on%20health%20care%20utilization%20in%20Taiwan%3A%20Results%20from%20a%20natural%20experiment%20Cheng%202012
+  Sci-Hub (備用): https://sci-hub.se/The%20effect%20of%20universal%20health%20insurance%20on%20health%20care%20utilization%20in%20Taiwan%3A%20Results%20from%20a%20natural%20experiment
+
+
+================================================================================
+[21/56] Cheng_2015_Reflections_on_the_20th_anniversary_of_Taiwans_si.pdf
+================================================================================
+
+Title: Reflections on the 20th anniversary of Taiwan's single-payer National Health Insurance system
+Authors: Cheng, T.M.
+Year: 2015
+Journal: Health Affairs
+Volume: 34
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Reflections%20on%20the%2020th%20anniversary%20of%20Taiwan%27s%20single-payer%20National%20Health%20Insurance%20system%20Cheng%202015
+  Sci-Hub (備用): https://sci-hub.se/Reflections%20on%20the%2020th%20anniversary%20of%20Taiwan%27s%20single-payer%20National%20Health%20Insurance%20system
+
+
+================================================================================
+[22/56] Cronin_1992_Measuring_service_quality_a_reexamination_and_ext.pdf
+================================================================================
+
+Title: Measuring service quality: a reexamination and extension
+Authors: Cronin, J.J., Taylor, S.A.
+Year: 1992
+Journal: Journal of Marketing
+Volume: 56
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Measuring%20service%20quality%3A%20a%20reexamination%20and%20extension%20Cronin%201992
+  Sci-Hub (備用): https://sci-hub.se/Measuring%20service%20quality%3A%20a%20reexamination%20and%20extension
+
+
+================================================================================
+[23/56] Darby_1973_Free_competition_and_the_optimal_amount_of_fraud.pdf
+================================================================================
+
+Title: Free competition and the optimal amount of fraud
+Authors: Darby, M.R., Karni, E.
+Year: 1973
+Journal: Journal of Law and Economics
+Volume: 16
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Free%20competition%20and%20the%20optimal%20amount%20of%20fraud%20Darby%201973
+  Sci-Hub (備用): https://sci-hub.se/Free%20competition%20and%20the%20optimal%20amount%20of%20fraud
+
+
+================================================================================
+[24/56] Deshai_2023_Fake_review_detection_in_healthcare_using_dense_ne.pdf
+================================================================================
+
+Title: Fake review detection in healthcare using dense neural network model
+Authors: Deshai, S.N., Rao, Y.S.
+Year: 2023
+Journal: Engineering Applications of Artificial Intelligence
+Volume: 120
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Fake%20review%20detection%20in%20healthcare%20using%20dense%20neural%20network%20model%20Deshai%202023
+  Sci-Hub (備用): https://sci-hub.se/Fake%20review%20detection%20in%20healthcare%20using%20dense%20neural%20network%20model
+
+
+================================================================================
+[25/56] Donabedian_1988_The_quality_of_care_How_can_it_be_assessed.pdf
+================================================================================
+
+Title: The quality of care: How can it be assessed?
+Authors: Donabedian, A.
+Year: 1988
+Journal: JAMA
+Volume: 260
+Issue: 12
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20quality%20of%20care%3A%20How%20can%20it%20be%20assessed%3F%20Donabedian%201988
+  Sci-Hub (備用): https://sci-hub.se/The%20quality%20of%20care%3A%20How%20can%20it%20be%20assessed%3F
+
+
+================================================================================
+[26/56] Donthu_1998_Cultural_influences_on_service_quality_expectation.pdf
+================================================================================
+
+Title: Cultural influences on service quality expectations
+Authors: Donthu, N., Yoo, B.
+Year: 1998
+Journal: Journal of Service Research
+Volume: 1
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Cultural%20influences%20on%20service%20quality%20expectations%20Donthu%201998
+  Sci-Hub (備用): https://sci-hub.se/Cultural%20influences%20on%20service%20quality%20expectations
+
+
+================================================================================
+[27/56] Furrer_2000_The_relationships_between_culture_and_service_qual.pdf
+================================================================================
+
+Title: The relationships between culture and service quality perceptions: Basis for cross-cultural market segmentation and resource allocation
+Authors: Furrer, O., Liu, B.S.C., Sudharshan, D.
+Year: 2000
+Journal: Journal of Service Research
+Volume: 2
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20relationships%20between%20culture%20and%20service%20quality%20perceptions%3A%20Basis%20for%20cross-cultural%20market%20segmentation%20and%20resource%20allocation%20Furrer%202000
+  Sci-Hub (備用): https://sci-hub.se/The%20relationships%20between%20culture%20and%20service%20quality%20perceptions%3A%20Basis%20for%20cross-cultural%20market%20segmentation%20and%20resource%20allocation
+
+
+================================================================================
+[28/56] Gao_2012_A_changing_landscape_of_physician_quality_reportin.pdf
+================================================================================
+
+Title: A changing landscape of physician quality reporting: analysis of patients' online ratings of their physicians over a 5-year period
+Authors: Gao, G.G., McCullough, J.S., Agarwal, R. et al.
+Year: 2012
+Journal: Journal of Medical Internet Research
+Volume: 14
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=A%20changing%20landscape%20of%20physician%20quality%20reporting%3A%20analysis%20of%20patients%27%20online%20ratings%20of%20their%20physicians%20over%20a%205-year%20period%20Gao%202012
+  Sci-Hub (備用): https://sci-hub.se/A%20changing%20landscape%20of%20physician%20quality%20reporting%3A%20analysis%20of%20patients%27%20online%20ratings%20of%20their%20physicians%20over%20a%205-year%20period
+
+
+================================================================================
+[29/56] Garcia_2024_Characterization_of_one_star_Yelp_reviews_for_otol.pdf
+================================================================================
+
+Title: Characterization of one-star Yelp reviews for otolaryngologists
+Authors: Garcia, G.G.P., Sung, C.K., Amirlak, B. et al.
+Year: 2024
+Journal: American Journal of Otolaryngology
+Volume: 45
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Characterization%20of%20one-star%20Yelp%20reviews%20for%20otolaryngologists%20Garcia%202024
+  Sci-Hub (備用): https://sci-hub.se/Characterization%20of%20one-star%20Yelp%20reviews%20for%20otolaryngologists
+
+
+================================================================================
+[30/56] Geletta_2019_Latent_Dirichlet_allocation_in_predicting_clinical.pdf
+================================================================================
+
+Title: Latent Dirichlet allocation in predicting clinical trial terminations
+Authors: Geletta, S., Follett, L., Laugerman, M.
+Year: 2019
+Journal: BMC Medical Informatics and Decision Making
+Volume: 19
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Latent%20Dirichlet%20allocation%20in%20predicting%20clinical%20trial%20terminations%20Geletta%202019
+  Sci-Hub (備用): https://sci-hub.se/Latent%20Dirichlet%20allocation%20in%20predicting%20clinical%20trial%20terminations
+
+
+================================================================================
+[31/56] Giusti_2020_The_empirical_evidence_underpinning_the_concept_an.pdf
+================================================================================
+
+Title: The empirical evidence underpinning the concept and practice of person-centred care for serious illness: a systematic review
+Authors: Giusti, A., Nkhoma, K., Petrus, R. et al.
+Year: 2020
+Journal: BMJ Global Health
+Volume: 5
+Issue: 12
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20empirical%20evidence%20underpinning%20the%20concept%20and%20practice%20of%20person-centred%20care%20for%20serious%20illness%3A%20a%20systematic%20review%20Giusti%202020
+  Sci-Hub (備用): https://sci-hub.se/The%20empirical%20evidence%20underpinning%20the%20concept%20and%20practice%20of%20person-centred%20care%20for%20serious%20illness%3A%20a%20systematic%20review
+
+
+================================================================================
+[32/56] Grönroos_1984_A_service_quality_model_and_its_marketing_implicat.pdf
+================================================================================
+
+Title: A service quality model and its marketing implications
+Authors: Grönroos, C.
+Year: 1984
+Journal: European Journal of Marketing
+Volume: 18
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=A%20service%20quality%20model%20and%20its%20marketing%20implications%20Gr%C3%B6nroos%201984
+  Sci-Hub (備用): https://sci-hub.se/A%20service%20quality%20model%20and%20its%20marketing%20implications
+
+
+================================================================================
+[33/56] Greaves_2013_Use_of_sentiment_analysis_for_capturing_patient_ex.pdf
+================================================================================
+
+Title: Use of sentiment analysis for capturing patient experience from free-text comments posted online
+Authors: Greaves, F., Ramirez-Cano, D., Millett, C. et al.
+Year: 2013
+Journal: Journal of Medical Internet Research
+Volume: 15
+Issue: 11
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Use%20of%20sentiment%20analysis%20for%20capturing%20patient%20experience%20from%20free-text%20comments%20posted%20online%20Greaves%202013
+  Sci-Hub (備用): https://sci-hub.se/Use%20of%20sentiment%20analysis%20for%20capturing%20patient%20experience%20from%20free-text%20comments%20posted%20online
+
+
+================================================================================
+[34/56] Hanauer_2014_Public_awareness_perception_and_use_of_online_ph.pdf
+================================================================================
+
+Title: Public awareness, perception, and use of online physician rating sites
+Authors: Hanauer, D.A., Zheng, K., Singer, D.C. et al.
+Year: 2014
+Journal: JAMA
+Volume: 311
+Issue: 7
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Public%20awareness%2C%20perception%2C%20and%20use%20of%20online%20physician%20rating%20sites%20Hanauer%202014
+  Sci-Hub (備用): https://sci-hub.se/Public%20awareness%2C%20perception%2C%20and%20use%20of%20online%20physician%20rating%20sites
+
+
+================================================================================
+[35/56] Hao_2016_The_voice_of_Chinese_health_consumers_A_text_mini.pdf
+================================================================================
+
+Title: The voice of Chinese health consumers: A text mining approach to web-based physician reviews
+Authors: Hao, H., Zhang, K.
+Year: 2016
+Journal: Journal of Medical Internet Research
+Volume: 18
+Issue: 5
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20voice%20of%20Chinese%20health%20consumers%3A%20A%20text%20mining%20approach%20to%20web-based%20physician%20reviews%20Hao%202016
+  Sci-Hub (備用): https://sci-hub.se/The%20voice%20of%20Chinese%20health%20consumers%3A%20A%20text%20mining%20approach%20to%20web-based%20physician%20reviews
+
+
+================================================================================
+[36/56] Himmelstein_2019_Medical_bankruptcy_Still_common_despite_the_Affor.pdf
+================================================================================
+
+Title: Medical bankruptcy: Still common despite the Affordable Care Act
+Authors: Himmelstein, D.U., Lawless, R.M., Thorne, D. et al.
+Year: 2019
+Journal: American Journal of Public Health
+Volume: 109
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Medical%20bankruptcy%3A%20Still%20common%20despite%20the%20Affordable%20Care%20Act%20Himmelstein%202019
+  Sci-Hub (備用): https://sci-hub.se/Medical%20bankruptcy%3A%20Still%20common%20despite%20the%20Affordable%20Care%20Act
+
+
+================================================================================
+[37/56] Hotchkiss_2024_Using_Google_Cloud_natural_language_processing_to_.pdf
+================================================================================
+
+Title: Using Google Cloud natural language processing to analyze caregiver reviews of hospices
+Authors: Hotchkiss, R.B., Swartz, J.L., Thomas, K.S. et al.
+Year: 2024
+Journal: Journal of Pain and Symptom Management
+Volume: 67
+Issue: 2
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Using%20Google%20Cloud%20natural%20language%20processing%20to%20analyze%20caregiver%20reviews%20of%20hospices%20Hotchkiss%202024
+  Sci-Hub (備用): https://sci-hub.se/Using%20Google%20Cloud%20natural%20language%20processing%20to%20analyze%20caregiver%20reviews%20of%20hospices
+
+
+================================================================================
+[38/56] Ivanov_2018_Dynamic_signals_in_user_generated_content_Hospita.pdf
+================================================================================
+
+Title: Dynamic signals in user-generated content: Hospital reputation and patient engagement
+Authors: Ivanov, O.B., Sharman, R.
+Year: 2018
+Journal: Journal of Management Information Systems
+Volume: 35
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Dynamic%20signals%20in%20user-generated%20content%3A%20Hospital%20reputation%20and%20patient%20engagement%20Ivanov%202018
+  Sci-Hub (備用): https://sci-hub.se/Dynamic%20signals%20in%20user-generated%20content%3A%20Hospital%20reputation%20and%20patient%20engagement
+
+
+================================================================================
+[39/56] Kim_2002_Informed_choice_and_decision_making_in_family_plan.pdf
+================================================================================
+
+Title: Informed choice and decision-making in family planning counseling in Kenya
+Authors: Kim, Y.M., Kols, A., Mucheke, S.
+Year: 2002
+Journal: International Family Planning Perspectives
+Volume: 28
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Informed%20choice%20and%20decision-making%20in%20family%20planning%20counseling%20in%20Kenya%20Kim%202002
+  Sci-Hub (備用): https://sci-hub.se/Informed%20choice%20and%20decision-making%20in%20family%20planning%20counseling%20in%20Kenya
+
+
+================================================================================
+[40/56] Kuhlmann_2020_A_manager_in_the_minds_of_doctors_A_comparison_.pdf
+================================================================================
+
+Title: "A manager in the minds of doctors": A comparison of new modes of control in European hospitals
+Authors: Kuhlmann, E., Burau, V., Correia, T. et al.
+Year: 2020
+Journal: BMC Health Services Research
+Volume: 13
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=%22A%20manager%20in%20the%20minds%20of%20doctors%22%3A%20A%20comparison%20of%20new%20modes%20of%20control%20in%20European%20hospitals%20Kuhlmann%202020
+  Sci-Hub (備用): https://sci-hub.se/%22A%20manager%20in%20the%20minds%20of%20doctors%22%3A%20A%20comparison%20of%20new%20modes%20of%20control%20in%20European%20hospitals
+
+
+================================================================================
+[41/56] Lewis_2023_Trauma_informed_approaches_in_primary_healthcare_a.pdf
+================================================================================
+
+Title: Trauma-informed approaches in primary healthcare and community mental healthcare
+Authors: Lewis, N.V., Bierce, A., Feder, G.S. et al.
+Year: 2023
+Journal: Health & Social Care in the Community
+Volume: 2023
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Trauma-informed%20approaches%20in%20primary%20healthcare%20and%20community%20mental%20healthcare%20Lewis%202023
+  Sci-Hub (備用): https://sci-hub.se/Trauma-informed%20approaches%20in%20primary%20healthcare%20and%20community%20mental%20healthcare
+
+
+================================================================================
+[42/56] Liu_2012_Sentiment_analysis_and_opinion_mining.pdf
+================================================================================
+
+Title: Sentiment analysis and opinion mining
+Authors: Liu, B.
+Year: 2012
+Journal: Synthesis Lectures on Human Language Technologies
+Volume: 5
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Sentiment%20analysis%20and%20opinion%20mining%20Liu%202012
+  Sci-Hub (備用): https://sci-hub.se/Sentiment%20analysis%20and%20opinion%20mining
+
+
+================================================================================
+[43/56] López_2012_What_patients_say_about_their_doctors_online_A_qu.pdf
+================================================================================
+
+Title: What patients say about their doctors online: A qualitative content analysis
+Authors: López, A., Detz, A., Ratanawongsa, N. et al.
+Year: 2012
+Journal: Journal of General Internal Medicine
+Volume: 27
+Issue: 6
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=What%20patients%20say%20about%20their%20doctors%20online%3A%20A%20qualitative%20content%20analysis%20L%C3%B3pez%202012
+  Sci-Hub (備用): https://sci-hub.se/What%20patients%20say%20about%20their%20doctors%20online%3A%20A%20qualitative%20content%20analysis
+
+
+================================================================================
+[44/56] Maier_2018_Applying_LDA_topic_modeling_in_communication_resea.pdf
+================================================================================
+
+Title: Applying LDA topic modeling in communication research
+Authors: Maier, D., Waldherr, A., Miltner, P.
+Year: 2018
+Journal: Communication Methods and Measures
+Volume: 12
+Issue: 2-3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Applying%20LDA%20topic%20modeling%20in%20communication%20research%20Maier%202018
+  Sci-Hub (備用): https://sci-hub.se/Applying%20LDA%20topic%20modeling%20in%20communication%20research
+
+
+================================================================================
+[45/56] Mattila_1999_The_role_of_culture_and_purchase_motivation_in_ser.pdf
+================================================================================
+
+Title: The role of culture and purchase motivation in service encounter evaluations
+Authors: Mattila, A.S.
+Year: 1999
+Journal: Journal of Services Marketing
+Volume: 13
+Issue: 4/5
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20role%20of%20culture%20and%20purchase%20motivation%20in%20service%20encounter%20evaluations%20Mattila%201999
+  Sci-Hub (備用): https://sci-hub.se/The%20role%20of%20culture%20and%20purchase%20motivation%20in%20service%20encounter%20evaluations
+
+
+================================================================================
+[46/56] Oliver_1980_A_cognitive_model_of_the_antecedents_and_consequen.pdf
+================================================================================
+
+Title: A cognitive model of the antecedents and consequences of satisfaction decisions
+Authors: Oliver, R.L.
+Year: 1980
+Journal: Journal of Marketing Research
+Volume: 17
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=A%20cognitive%20model%20of%20the%20antecedents%20and%20consequences%20of%20satisfaction%20decisions%20Oliver%201980
+  Sci-Hub (備用): https://sci-hub.se/A%20cognitive%20model%20of%20the%20antecedents%20and%20consequences%20of%20satisfaction%20decisions
+
+
+================================================================================
+[47/56] Papanicolas_2018_Health_care_spending_in_the_United_States_and_othe.pdf
+================================================================================
+
+Title: Health care spending in the United States and other high-income countries
+Authors: Papanicolas, I., Woskie, L.R., Jha, A.K.
+Year: 2018
+Journal: JAMA
+Volume: 319
+Issue: 10
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Health%20care%20spending%20in%20the%20United%20States%20and%20other%20high-income%20countries%20Papanicolas%202018
+  Sci-Hub (備用): https://sci-hub.se/Health%20care%20spending%20in%20the%20United%20States%20and%20other%20high-income%20countries
+
+
+================================================================================
+[48/56] Parasuraman_1985_A_conceptual_model_of_service_quality_and_its_impl.pdf
+================================================================================
+
+Title: A conceptual model of service quality and its implications for future research
+Authors: Parasuraman, A., Zeithaml, V.A., Berry, L.L.
+Year: 1985
+Journal: Journal of Marketing
+Volume: 49
+Issue: 4
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=A%20conceptual%20model%20of%20service%20quality%20and%20its%20implications%20for%20future%20research%20Parasuraman%201985
+  Sci-Hub (備用): https://sci-hub.se/A%20conceptual%20model%20of%20service%20quality%20and%20its%20implications%20for%20future%20research
+
+
+================================================================================
+[49/56] Steenkamp_1998_Assessing_measurement_invariance_in_cross_national.pdf
+================================================================================
+
+Title: Assessing measurement invariance in cross-national consumer research
+Authors: Steenkamp, J.B.E., Baumgartner, H.
+Year: 1998
+Journal: Journal of Consumer Research
+Volume: 25
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Assessing%20measurement%20invariance%20in%20cross-national%20consumer%20research%20Steenkamp%201998
+  Sci-Hub (備用): https://sci-hub.se/Assessing%20measurement%20invariance%20in%20cross-national%20consumer%20research
+
+
+================================================================================
+[50/56] Tai-Seale_2007_Time_allocation_in_primary_care_office_visits.pdf
+================================================================================
+
+Title: Time allocation in primary care office visits
+Authors: Tai-Seale, M., McGuire, T.G., Zhang, W.
+Year: 2007
+Journal: Health Services Research
+Volume: 42
+Issue: 5
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Time%20allocation%20in%20primary%20care%20office%20visits%20Tai-Seale%202007
+  Sci-Hub (備用): https://sci-hub.se/Time%20allocation%20in%20primary%20care%20office%20visits
+
+
+================================================================================
+[51/56] Tsai_2009_Examining_the_impact_of_Taiwans_National_Health_I.pdf
+================================================================================
+
+Title: Examining the impact of Taiwan's National Health Insurance on the practice patterns and incomes of physicians
+Authors: Tsai, Y.W., Wen, Y.W., Chen, P.F. et al.
+Year: 2009
+Journal: Health Affairs
+Volume: 28
+Issue: 5
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Examining%20the%20impact%20of%20Taiwan%27s%20National%20Health%20Insurance%20on%20the%20practice%20patterns%20and%20incomes%20of%20physicians%20Tsai%202009
+  Sci-Hub (備用): https://sci-hub.se/Examining%20the%20impact%20of%20Taiwan%27s%20National%20Health%20Insurance%20on%20the%20practice%20patterns%20and%20incomes%20of%20physicians
+
+
+================================================================================
+[52/56] Winsted_1997_The_service_experience_in_two_cultures_A_behavior.pdf
+================================================================================
+
+Title: The service experience in two cultures: A behavioral perspective
+Authors: Winsted, K.F.
+Year: 1997
+Journal: Journal of Retailing
+Volume: 73
+Issue: 3
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=The%20service%20experience%20in%20two%20cultures%3A%20A%20behavioral%20perspective%20Winsted%201997
+  Sci-Hub (備用): https://sci-hub.se/The%20service%20experience%20in%20two%20cultures%3A%20A%20behavioral%20perspective
+
+
+================================================================================
+[53/56] Yazdani_2023_Persian_sentiment_analysis_of_cancer_patients.pdf
+================================================================================
+
+Title: Persian sentiment analysis of cancer patients
+Authors: Yazdani, A., Shamloo, M., Khaki, M. et al.
+Year: 2023
+Journal: BMC Medical Informatics and Decision Making
+Volume: 23
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Persian%20sentiment%20analysis%20of%20cancer%20patients%20Yazdani%202023
+  Sci-Hub (備用): https://sci-hub.se/Persian%20sentiment%20analysis%20of%20cancer%20patients
+
+
+================================================================================
+[54/56] Yi_2015_Linking_state_intervention_and_health_equity_diffe.pdf
+================================================================================
+
+Title: Linking state intervention and health equity differently: The universalization of health care in South Korea and Taiwan
+Authors: Yi, I., Sohn, H.S., Kim, T.
+Year: 2015
+Journal: Korea Observer
+Volume: 46
+Issue: 1
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Linking%20state%20intervention%20and%20health%20equity%20differently%3A%20The%20universalization%20of%20health%20care%20in%20South%20Korea%20and%20Taiwan%20Yi%202015
+  Sci-Hub (備用): https://sci-hub.se/Linking%20state%20intervention%20and%20health%20equity%20differently%3A%20The%20universalization%20of%20health%20care%20in%20South%20Korea%20and%20Taiwan
+
+
+================================================================================
+[55/56] Berry_1989_Imposed_etics_emics_derived_etics_The_operational.pdf
+================================================================================
+
+Title: Imposed etics-emics-derived etics: The operationalization of a compelling idea
+Authors: Berry, J.W.
+Year: 1989
+Journal: International Journal of Psychology
+Volume: 24
+Issue: 6
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Imposed%20etics-emics-derived%20etics%3A%20The%20operationalization%20of%20a%20compelling%20idea%20Berry%201989
+  Sci-Hub (備用): https://sci-hub.se/Imposed%20etics-emics-derived%20etics%3A%20The%20operationalization%20of%20a%20compelling%20idea
+
+
+================================================================================
+[56/56] Aiken_2002_Hospital_nurse_staffing_and_patient_mortality_nur.pdf
+================================================================================
+
+Title: Hospital nurse staffing and patient mortality, nurse burnout, and job dissatisfaction
+Authors: Aiken, L.H., Clarke, S.P., Sloane, D.M. et al.
+Year: 2002
+Journal: JAMA
+Volume: 288
+Issue: 16
+
+下載連結:
+  Google Scholar: https://scholar.google.com/scholar?q=Hospital%20nurse%20staffing%20and%20patient%20mortality%2C%20nurse%20burnout%2C%20and%20job%20dissatisfaction%20Aiken%202002
+  Sci-Hub (備用): https://sci-hub.se/Hospital%20nurse%20staffing%20and%20patient%20mortality%2C%20nurse%20burnout%2C%20and%20job%20dissatisfaction
+

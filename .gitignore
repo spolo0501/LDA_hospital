@@ -105,6 +105,15 @@ package-lock.json
 *.bak
 
 # ----------------
+# 壓縮檔案和打包資料夾
+# ----------------
+*.zip
+*.tar.gz
+*.rar
+Taiwan_Hospital_LDA_Analysis/
+Taiwan_USA_Hospital_Analysis/
+
+# ----------------
 # 特定專案排除
 # ----------------
 # 批次抓取的 log

@@ -79,8 +79,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 IS_STREAMLIT_CLOUD = os.getenv('STREAMLIT_SHARING_MODE') is not None or \
                       os.path.exists('/mount/src')
 
+# 安全地檢查 secrets
+USE_DEMO_FROM_SECRETS = False
+try:
+    USE_DEMO_FROM_SECRETS = st.secrets.get('USE_DEMO_DATA', False)
+except Exception:
+    pass
+
 USE_DEMO = os.getenv('USE_DEMO_DATA', 'false').lower() == 'true' or \
-           (st.secrets.get('USE_DEMO_DATA', False) if hasattr(st, 'secrets') and st.secrets else False) or \
+           USE_DEMO_FROM_SECRETS or \
            IS_STREAMLIT_CLOUD
 
 # 強制使用 demo 資料在 Streamlit Cloud
